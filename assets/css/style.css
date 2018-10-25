@@ -1,19 +1,25 @@
  .row {
-  margin-right: 0;
   margin-top: 40px;
  }
  
+ html, body {
+  overflow-x: hidden;
+ }
+ 
+
  
  /* Navigation and Navbar */
  
  #navbar#navbar-default {
-  margin-top: 0;
+  margin-top: 0px;
  }
 
  .nav.nav-tabs {
-  border: 0;
-  margin: 0;
+  border: 0px;
+  margin: 0px;
  }
+ 
+ 
  
  /* Select Menu */
  
@@ -34,8 +40,6 @@
  /* Footer */
  
   #footer {
-  margin-left: 0;
-  margin-right: 0;
   width: 100%;
   color: white;
   margin-top: 300px;
@@ -47,6 +51,10 @@
  
  /* Colors */
  
+ .footer-bg {
+  background-color: grey;
+ }
+ 
  /* Media Queries */
  
  /* Buttons */
@@ -54,7 +62,8 @@
  /* Section */
  
  .container-fluid {
-  padding: 0;
+  padding-left: 0px;
+  padding-right: 0px;
   width: 100%;
  }
  

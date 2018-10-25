@@ -1,22 +1,11 @@
- /* Set the size of the div element that contains the map */
-
- #map {
-  height: 400px;
-  /* The height is 400 pixels */
-  width: 100%;
-  /* The width is the width of the web page */
- }
-
- .container-fluid {
-  padding: 0;
-  width: 100%;
- }
-
  .row {
   margin-right: 0;
   margin-top: 40px;
  }
-
+ 
+ 
+ /* Navigation and Navbar */
+ 
  #navbar#navbar-default {
   margin-top: 0;
  }
@@ -25,9 +14,26 @@
   border: 0;
   margin: 0;
  }
-
- #footer {
-  background-color: grey;
+ 
+ /* Select Menu */
+ 
+ /* Search Menu */
+ 
+ /* Map */
+ 
+ /* Set the size of the div element that contains the map */
+ #map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+ }
+ 
+ /* Contact */
+ 
+ /* Footer */
+ 
+  #footer {
   margin-left: 0;
   margin-right: 0;
   width: 100%;
@@ -38,4 +44,31 @@
   text-align: center;
   justify-content: center;
  }
+ 
+ /* Colors */
+ 
+ /* Media Queries */
+ 
+ /* Buttons */
+ 
+ /* Section */
+ 
+ .container-fluid {
+  padding: 0;
+  width: 100%;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
  

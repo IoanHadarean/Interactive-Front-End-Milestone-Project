@@ -15,48 +15,71 @@
 
     <!-- Navigation -->
 
-    <nav id="navbar navbar-default">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+
+    <section>
+        <nav id="navbar navbar-default">
+            <div class="container-fluid">
+
+                <!-- Brand and toggle get grouped for better mobile display -->
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            </div>
-            <div class="navbar-collapse collapse" id="navbar">
-                <div class="row">
-                    <ul id="nav" class="list-inline clearfix">
-                        <li class="nav-item nav-color col-xs-2 col-sm-2 col-md-2 col-lg-2">
-                            <a class="nav-link" href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>USA Travel</span></a>
-                        </li>
-                        <li class="nav-item nav-color col-xs-2 col-sm-2 col-md-2 col-lg-2">
-                            <a class="nav-link" href="images.html" class="hvr-sweep-to-bottom"><i class="fas fa-image" aria-hidden="true"></i><span>States</span></a>
-                        </li>
-                        <li class="nav-item nav-color col-xs-2 col-sm-2 col-md-2 col-lg-2">
-                            <a class="nav-link" href="songs.html" class="hvr-sweep-to-bottom"><i class="fa fa-music" aria-hidden="true"></i><span>Locations</span></a>
-                        </li>
-                    </ul>
+                </div>
+                <div class="navbar-collapse collapse" id="navbar">
+                    <div class="row">
+                        <ul id="nav" class="list-inline clearfix">
+                            <li class="nav-item nav-color col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                                <a class="nav-link" href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>USA Travel</span></a>
+                            </li>
+                            <li class="nav-item nav-color col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                                <a class="nav-link" href="images.html" class="hvr-sweep-to-bottom"><i class="fas fa-image" aria-hidden="true"></i><span>States</span></a>
+                            </li>
+                            <li class="nav-item nav-color col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                                <a class="nav-link" href="songs.html" class="hvr-sweep-to-bottom"><i class="fa fa-music" aria-hidden="true"></i><span>Locations</span></a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </section>
+
 
     <!-- Main body -->
 
-    <div class="container-fluid">
-        <!--The div element for the map -->
-        <div id="map"></div>
-    </div>
+
+    <section>
+        <div class="container-fluid">
+
+            <!-- Select Menu -->
+
+            <select class="custom-select">
+          <option selected>Open this select menu</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+
+            <!--The div element for the map -->
+
+            <div id="map"></div>
+        </div>
+    </section>
 
     <!-- Footer -->
-    <footer id="footer">
-        <div class="container-fluid">
-            <div class="row">©Ioan-Dumitru Hadarean</div>
-        </div>
-    </footer>
+
+    <section>
+        <footer id="footer">
+            <div class="container-fluid">
+                <div class="row">©Ioan-Dumitru Hadarean</div>
+            </div>
+        </footer>
+    </section>
 
     <!--Load the API from the specified URL
     *The async attribute allows the browser to render the page while the API loads

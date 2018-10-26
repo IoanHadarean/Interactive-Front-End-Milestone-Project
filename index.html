@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>USA Travel</title>
+    <title>USA and Caribbean Travel</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
@@ -24,11 +24,11 @@
 
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                 </div>
                 <div class="navbar-collapse collapse" id="navbar">
                     <div class="row">
@@ -57,24 +57,31 @@
         <div class="container-fluid">
 
             <!-- Select Menu -->
-
-            <select class="custom-select">
-          <option selected>Open this select menu</option>
-          <option value="1">One</option>
-          <option value="2">Two</option>
-          <option value="3">Three</option>
-        </select>
+            <div class="container-fluid">
+                <select class="custom-select">
+                    <option selected>Select</option>
+                    <option value="1">USA States</option>
+                    <option value="2">Caribbean Countries</option>
+                </select>
+                <form autocomplete="off">
+                    <div class="autocomplete" style="width:300px">
+                        <input id="myInput" type="text" name="myCountry" placeholder="American State or Carribbean Country">
+                    </div>
+                    <input type="submit">
+                </form>
+            </div>
 
             <!--The div element for the map -->
-
-            <div id="map"></div>
+            <div class="container-fluid">
+                <div id="map"></div>
+            </div>
         </div>
     </section>
 
     <!-- Footer -->
 
     <section>
-        <footer id="footer">
+        <footer id="footer" class="footer-bg">
             <div class="container-fluid">
                 <div class="row">©Ioan-Dumitru Hadarean</div>
             </div>

@@ -63,12 +63,16 @@
                     <option value="1">USA States</option>
                     <option value="2">Caribbean Countries</option>
                 </select>
-                <form autocomplete="off">
-                    <div class="autocomplete" style="width:300px">
-                        <input id="myInput" type="text" name="myCountry" placeholder="American State or Carribbean Country">
-                    </div>
-                    <input type="submit">
-                </form>
+
+                <!-- Autocomplete search form -->
+                <div>
+                    <form autocomplete="off">
+                        <div class="autocomplete" style="width:300px">
+                            <input id="myInput" type="text" name="myCountry" placeholder="American State or Carribbean Country">
+                        </div>
+                        <input type="submit">
+                    </form>
+                </div>
             </div>
 
             <!--The div element for the map -->
@@ -95,6 +99,7 @@
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwpWWSUqZ4atKTwwMw9Sz4Kk0nnXyCjx0&callback=initMap" type="text/javascript"></script>
     <script src="assets/js/maps.js"></script>
+    <script src="assets/js/autocomplete.js"></script>
 </body>
 
 </html>

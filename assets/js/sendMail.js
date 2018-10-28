@@ -2,7 +2,7 @@ function sendMail(form) {
     emailjs.send("gmail", "rosie", {
         "from_name": form.name.value,
         "from_email": form.emailaddress.value,
-        "project_request": form.projectsummary.value
+        "project_request": form.enquiry.value
     })
     .then (
         function(response) {
@@ -11,4 +11,5 @@ function sendMail(form) {
         function (error) {
             console.log("FAILED", error);
         });
+        return false;
 }

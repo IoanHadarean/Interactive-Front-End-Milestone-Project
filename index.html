@@ -10,7 +10,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/places.css" type="text/css" />
-
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("user_tMIk9Q6XHYZNUils42nTh");
+        })();
+    </script>
 </head>
 
 <body>
@@ -110,7 +115,7 @@
                 <form onsubmit="return sendMail(this);">
                     <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
                     <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
-                    <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Please fill out an enquiry form" required></textarea>
+                    <textarea rows="5" name="enquiry" class="form-control" id="enquiry" placeholder="Please fill out an enquiry form" required></textarea>
                     <button type="submit" class="btn btn-secondary center-block">Contact Us</button>
                 </form>
             </div>
@@ -134,6 +139,7 @@
     *The callback parameter executes the initMap() function -->
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script src="assets/js/mapsMuseum.js"></script>
+    <script src="assets/js/sendMail.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwpWWSUqZ4atKTwwMw9Sz4Kk0nnXyCjx0&libraries=places&callback=initMap" async defer></script>
 </body>
 

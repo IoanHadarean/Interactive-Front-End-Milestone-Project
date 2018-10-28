@@ -5,10 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>USA and Caribbean Travel</title>
+    <title>USA Travel</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/places.css" type="text/css" />
+
 </head>
 
 <body>
@@ -56,28 +58,57 @@
     <section>
         <div class="container-fluid">
 
-            <!-- Select Menu -->
-            <div class="container-fluid">
-                <select class="custom-select">
-                    <option selected>Select</option>
-                    <option value="1">USA States</option>
-                    <option value="2">Caribbean Countries</option>
-                </select>
-
-                <!-- Autocomplete search form -->
-                <div>
-                    <form autocomplete="off">
-                        <div class="autocomplete" style="width:300px">
-                            <input id="myInput" type="text" name="myCountry" placeholder="American State or Carribbean Country">
-                        </div>
-                        <input type="submit">
-                    </form>
-                </div>
+            <div id="findhotels">
+                Find hotels in:
             </div>
 
-            <!--The div element for the map -->
-            <div class="container-fluid">
-                <div id="map"></div>
+            <div id="locationField">
+                <input id="autocomplete" placeholder="Enter a city" type="text" />
+            </div>
+
+            <div id="controls">
+                <select id="country">
+                    <option value ="all" selected>All</option>
+                    <option value="us">U.S.A.</option>
+                    <option value = "uk">UK</option>
+                    <option value ="aus">Australia</option>
+                    <option value ="ro">Romania</option>
+                </select>
+            </div>
+
+            <div id="map"></div>
+
+            <div id="listing">
+                <table id="resultsTable">
+                    <tbody id="results"></tbody>
+                </table>
+            </div>
+
+            <div style="display: none">
+                <div id="info-content">
+                    <table>
+                        <tr id="iw-url-row" class="iw_table_row">
+                            <td id="iw-icon" class="iw_table_icon"></td>
+                            <td id="iw-url"></td>
+                        </tr>
+                        <tr id="iw-address-row" class="iw_table_row">
+                            <td class="iw_attribute_name">Address:</td>
+                            <td id="iw-address"></td>
+                        </tr>
+                        <tr id="iw-phone-row" class="iw_table_row">
+                            <td class="iw_attribute_name">Telephone:</td>
+                            <td id="iw-phone"></td>
+                        </tr>
+                        <tr id="iw-rating-row" class="iw_table_row">
+                            <td class="iw_attribute_name">Rating:</td>
+                            <td id="iw-rating"></td>
+                        </tr>
+                        <tr id="iw-website-row" class="iw_table_row">
+                            <td class="iw_attribute_name">Website:</td>
+                            <td id="iw-website"></td>
+                        </tr>
+                    </table>
+                </div>
             </div>
         </div>
     </section>
@@ -97,9 +128,8 @@
     *The key parameter will contain the API key(needed in order for Google Maps to work)
     *The callback parameter executes the initMap() function -->
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwpWWSUqZ4atKTwwMw9Sz4Kk0nnXyCjx0&callback=initMap" type="text/javascript"></script>
-    <script src="assets/js/maps.js"></script>
-    <script src="assets/js/autocomplete.js"></script>
+    <script src="assets/js/mapsMuseum.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwpWWSUqZ4atKTwwMw9Sz4Kk0nnXyCjx0&libraries=places&callback=initMap" async defer></script>
 </body>
 
 </html>

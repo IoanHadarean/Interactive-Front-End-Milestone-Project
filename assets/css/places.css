@@ -4,18 +4,17 @@
 
  #listing {
    position: absolute;
-   width: 200px;
-   height: 200px;
+   width: 180px;
+   height: 350px;
    overflow: auto;
    left: 0px;
-   top: 300px;
+   top: 100px;
    cursor: pointer;
-   overflow-x: hidden;
  }
 
  #locationField {
    position: absolute;
-   width: 140px;
+   width: 180px;
    height: 25px;
    left: 0px;
    top: 50px;
@@ -25,9 +24,9 @@
 
  #controls {
    position: absolute;
-   left: 140px;
-   width: 140px;
-   top: 50px;
+   left: 0px;
+   width: 180px;
+   top: 75px;
    z-index: 5;
    background-color: #fff;
  }

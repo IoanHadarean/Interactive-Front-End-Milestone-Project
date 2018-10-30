@@ -7,16 +7,188 @@
   overflow-x: hidden;
  }
 
- /* Navigation and Navbar */
+ /* Navigation */
 
- #navbar#navbar-default {
-  margin-top: 0px;
+ #nav {
+  margin: 0;
+  padding: 0;
  }
 
- .nav.nav-tabs {
-  border: 0px;
-  margin: 0px;
+ #nav li {
+  padding: 0;
  }
+
+ #navbar {
+  margin: 0;
+ }
+
+ .nav-item {
+  height: 60px;
+  width: 20%;
+  margin-right: 0;
+  text-align: center;
+  padding: 0;
+ }
+
+ .nav-item a {
+  width: 100%;
+  text-decoration: none;
+  color: #ffffff;
+  height: 60px;
+ }
+
+ .nav-item a i {
+  padding-top: 12px;
+  display: block;
+  color: #fafafa;
+  font-size: 14px;
+ }
+
+ .nav-item span {
+  display: block;
+  width: 100%;
+  padding-top: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 2px;
+ }
+
+
+ /*-----------------------------------------------Navbar*/
+
+ .container-fluid>.navbar-header {
+  margin-left: 0px;
+  margin-right: 0px;
+ }
+
+ .navbar-default .navbar-nav>li>a {
+  color: white;
+ }
+
+ .navbar-default .navbar-text {
+  color: white;
+ }
+
+ .navbar-default .navbar-collapse {
+  border-color: transparent;
+ }
+
+ .navbar-default .navbar-toggle {
+  border: 0;
+ }
+
+ .navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+ }
+
+ .navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+ }
+
+ .navbar-default .navbar-nav a {
+  font-weight: bold;
+ }
+
+ .navbar-default .navbar-nav>.active>a,
+ .navbar-default .navbar-nav>.active>a:focus,
+ .navbar-default .navbar-nav>.active>a:hover {
+  color: white;
+  background: transparent;
+ }
+
+ .navbar-default .navbar-nav>li>a:focus,
+ .navbar-default .navbar-nav>li>a:hover {
+  color: white;
+ }
+
+ .hvr-sweep-to-bottom:before {
+  background: rgba(0, 0, 0, 0.5);
+  height: 60px;
+ }
+
+
+ .navbar-header .navbar-text {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  border-radius: 50%;
+ }
+
+ .navbar {
+  margin-bottom: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: transparent;
+  border-color: #fafafa;
+  border: 0;
+ }
+
+ .navbar-header .navbar-brand {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  padding-right: 10px;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+ }
+
+ .navbar-header .navbar-brand:hover {
+  color: white;
+ }
+
+ .navbar .navbar-brand:hover {
+  color: white;
+ }
+
+ .navbar-header .navbar-nav>li>a {
+  color: white;
+ }
+
+ .navbar-header .navbar-text {
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+ }
+
+ .navbar-header .navbar-collapse {
+  border-color: transparent;
+ }
+
+ .navbar-header .navbar-toggle {
+  border: 0;
+ }
+
+ .navbar-header .navbar-toggle:hover {
+  background-color: transparent;
+ }
+
+ .navbar-header .navbar-toggle .icon-bar {
+  background-color: white;
+ }
+
+ .navbar-header .navbar-nav a {
+  font-weight: bold;
+ }
+
+ .navbar-header .navbar-nav>.active>a,
+ .navbar-default .navbar-nav>.active>a:focus,
+ .navbar-default .navbar-nav>.active>a:hover {
+  color: white;
+  background: transparent;
+ }
+
+ .navbar-header .navbar-nav>li>a:focus,
+ .navbar-default .navbar-nav>li>a:hover {
+  color: white;
+ }
+
 
  /* Map */
 
@@ -28,6 +200,7 @@
   width: 100%;
   /* The width is the width of the web page */
   -webkit-overflow-scrolling: touch;
+  margin-top: 100px;
  }
 
  /* Contact */
@@ -52,6 +225,10 @@
 
  .footer-bg {
   background-color: grey;
+ }
+ 
+ .nav-color {
+  background-color: black;
  }
 
  /* Media Queries */

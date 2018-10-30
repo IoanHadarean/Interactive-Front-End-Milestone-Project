@@ -1,15 +1,14 @@
  .row {
   margin-top: 40px;
  }
- 
- html, body {
+
+ html,
+ body {
   overflow-x: hidden;
  }
- 
 
- 
  /* Navigation and Navbar */
- 
+
  #navbar#navbar-default {
   margin-top: 0px;
  }
@@ -18,66 +17,52 @@
   border: 0px;
   margin: 0px;
  }
- 
- 
- 
- /* Select Menu */
- 
- /* Search Menu */
- 
+
  /* Map */
- 
+
  /* Set the size of the div element that contains the map */
+
  #map {
   height: 400px;
   /* The height is 400 pixels */
   width: 100%;
   /* The width is the width of the web page */
+  -webkit-overflow-scrolling: touch;
  }
- 
+
  /* Contact */
- 
+
+ .btn.btn-secondary {
+  margin-top: 20px;
+  margin-bottom: 20px;
+ }
+
  /* Footer */
- 
-  #footer {
+
+ #footer {
   width: 100%;
   color: white;
-  margin-top: 300px;
   height: 100px;
   display: flex;
   text-align: center;
   justify-content: center;
  }
- 
+
  /* Colors */
- 
+
  .footer-bg {
   background-color: grey;
  }
- 
+
  /* Media Queries */
- 
+
  /* Buttons */
- 
+
  /* Section */
- 
+
  .container-fluid {
   padding-left: 0px;
   padding-right: 0px;
   width: 100%;
  }
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
-
-
  

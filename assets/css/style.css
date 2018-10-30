@@ -1,3 +1,5 @@
+ @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,800|Exo: 400,500,800');
+ 
  .row {
   margin-top: 40px;
  }
@@ -6,8 +8,6 @@
  body {
   overflow-x: hidden;
  }
-
- /* Navigation */
 
  #nav {
   margin: 0;
@@ -22,7 +22,7 @@
   margin: 0;
  }
 
- .nav-item {
+ .menuitem {
   height: 60px;
   width: 20%;
   margin-right: 0;
@@ -30,21 +30,21 @@
   padding: 0;
  }
 
- .nav-item a {
+ .menuitem a {
   width: 100%;
   text-decoration: none;
   color: #ffffff;
   height: 60px;
  }
 
- .nav-item a i {
+ .menuitem a i {
   padding-top: 12px;
   display: block;
   color: #fafafa;
   font-size: 14px;
  }
 
- .nav-item span {
+ .menuitem span {
   display: block;
   width: 100%;
   padding-top: 5px;
@@ -64,10 +64,6 @@
  }
 
  .navbar-default .navbar-nav>li>a {
-  color: white;
- }
-
- .navbar-default .navbar-text {
   color: white;
  }
 
@@ -108,15 +104,6 @@
   height: 60px;
  }
 
-
- .navbar-header .navbar-text {
-  color: white;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  border-radius: 50%;
- }
-
  .navbar {
   margin-bottom: 0;
   position: absolute;
@@ -151,12 +138,6 @@
   color: white;
  }
 
- .navbar-header .navbar-text {
-  color: white;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
- }
-
  .navbar-header .navbar-collapse {
   border-color: transparent;
  }
@@ -189,7 +170,6 @@
   color: white;
  }
 
-
  /* Map */
 
  /* Set the size of the div element that contains the map */
@@ -200,7 +180,7 @@
   width: 100%;
   /* The width is the width of the web page */
   -webkit-overflow-scrolling: touch;
-  margin-top: 100px;
+  margin-top: 300px;
  }
 
  /* Contact */
@@ -226,7 +206,11 @@
  .footer-bg {
   background-color: grey;
  }
- 
+
+ .nav-bg {
+  background-color: black;
+ }
+
  .nav-color {
   background-color: black;
  }

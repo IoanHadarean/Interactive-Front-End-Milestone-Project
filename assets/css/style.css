@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,800|Exo: 400,500,800');
+ @import url('https://fonts.googleapis.com/css?family=Roboto:400|Exo: 400,500,800');
 
  .row {
   margin-top: 40px;
@@ -8,6 +8,8 @@
  body {
   overflow-x: hidden;
  }
+
+ /* Navigation */
 
  #nav {
   margin: 0;
@@ -34,7 +36,7 @@
   width: 100%;
   text-decoration: none;
   color: #ffffff;
-  height: 60px;
+  height: 30px;
  }
 
  .menuitem a i {
@@ -49,10 +51,16 @@
   width: 100%;
   padding-top: 5px;
   text-align: center;
-  text-transform: uppercase;
-  font-size: 10px;
+  justify-content: center;
+  font-size: 14px;
   font-weight: 400;
   letter-spacing: 2px;
+ }
+
+ .list-inline {
+  display: flex;
+  text-align: center;
+  justify-content: center;
  }
 
 
@@ -101,7 +109,7 @@
 
  .hvr-sweep-to-bottom:before {
   background: rgba(0, 0, 0, 0.5);
-  height: 60px;
+  height: 30px;
  }
 
  .navbar {
@@ -216,7 +224,7 @@
  }
 
  /* Media Queries */
- 
+
  @media (min-width: 768px) {
   #map {
    margin-top: 100px;
@@ -244,7 +252,8 @@
  .addMargins {
   margin-top: 151px;
  }
- 
+
  .removeMargins {
   margin-top: 101px;
  }
+ 

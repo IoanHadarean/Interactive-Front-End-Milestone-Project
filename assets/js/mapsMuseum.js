@@ -10,7 +10,7 @@
  var map, places, infoWindow;
  var markers = [];
  var autocomplete;
- var countryRestrict = { 'country': 'us' };
+ var countryRestrict = { 'country': 'uk' };
  var MARKER_PATH = 'https://developers.google.com/maps/documentation/javascript/images/marker_green';
  var hostnameRegexp = new RegExp('^https?://.+?/');
 
@@ -41,6 +41,10 @@
    panControl: false,
    zoomControl: false,
    streetViewControl: false
+  });
+
+  infoWindow = new google.maps.InfoWindow({
+   content: document.getElementById('info-content')
   });
 
   // Create the autocomplete object and associate it with the UI input control.
@@ -81,7 +85,6 @@
    bounds: map.getBounds(),
    types: ['museum']
   };
-
 
   places.nearbySearch(search, function(results, status) {
    if (status === google.maps.places.PlacesServiceStatus.OK) {

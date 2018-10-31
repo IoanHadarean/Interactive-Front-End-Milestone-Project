@@ -18,7 +18,7 @@
             emailjs.init("user_tMIk9Q6XHYZNUils42nTh");
         })();
     </script>
-    <title>USA Travel</title>
+    <title>BulletAir</title>
 </head>
 
 <body>
@@ -34,9 +34,9 @@
 
             <div class="navbar-header">
                 <a href="/" class="navbar-brand">
-                    USA travel
+                    BulletAir
                 </a>
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                <button id="button" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -52,6 +52,9 @@
                         </li>
                         <li class="menuitem nav-color col-xs-2 col-sm-2 col-md-2 col-lg-2">
                             <a href="#controls" class="hvr-sweep-to-bottom"><i aria-hidden="true"></i><span>States</span></a>
+                        </li>
+                        <li class="menuitem nav-color col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                            <a href="#location-field" class="hvr-sweep-to-bottom"><i aria-hidden="true"></i><span>Locations</span></a>
                         </li>
                         <li class="menuitem nav-color col-xs-2 col-sm-2 col-md-2 col-lg-2">
                             <a href="#location-field" class="hvr-sweep-to-bottom"><i aria-hidden="true"></i><span>Locations</span></a>
@@ -123,7 +126,7 @@
                     <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
                     <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
                     <textarea rows="5" name="enquiry" class="form-control" id="enquiry" placeholder="Please fill out an enquiry form" required></textarea>
-                    <button type="submit" class="btn btn-secondary center-block">Contact Us</button>
+                    <button id= "contact" type="submit" class="btn btn-secondary center-block">Contact Us</button>
                 </form>
             </div>
         </div>

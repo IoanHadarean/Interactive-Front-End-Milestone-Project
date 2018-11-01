@@ -21,13 +21,16 @@
  }
 
  #navbar {
-  margin: 0;
+  margin: 0px;
+  border: 0;
+  padding: 0;
  }
 
  .menuitem {
   height: 60px;
   width: 20%;
   margin-right: 0;
+  display: flex;
   text-align: center;
   padding: 0;
  }
@@ -35,8 +38,9 @@
  .menuitem a {
   width: 100%;
   text-decoration: none;
-  color: #ffffff;
-  height: 30px;
+  color: black;
+  height: 60px;
+  -webkit-text-stroke-width: 1px;
  }
 
  .menuitem a i {
@@ -54,7 +58,6 @@
   justify-content: center;
   font-size: 14px;
   font-weight: 400;
-  letter-spacing: 2px;
  }
 
  .list-inline {
@@ -86,9 +89,9 @@
  .navbar-default .navbar-toggle:hover {
   background-color: transparent;
  }
-
+ 
  .navbar-default .navbar-toggle .icon-bar {
-  background-color: white;
+  background-color: black;
  }
 
  .navbar-default .navbar-nav a {
@@ -109,7 +112,7 @@
 
  .hvr-sweep-to-bottom:before {
   background: rgba(0, 0, 0, 0.5);
-  height: 30px;
+  height: 60px;
  }
 
  .navbar {
@@ -129,9 +132,8 @@
   font-size: 25px;
   font-weight: 400;
   padding-right: 10px;
-  color: white;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
+  color: black;
+  -webkit-text-stroke-width: 2px;
  }
 
  .navbar-header .navbar-brand:hover {
@@ -159,7 +161,7 @@
  }
 
  .navbar-header .navbar-toggle .icon-bar {
-  background-color: white;
+  background-color: black;
  }
 
  .navbar-header .navbar-nav a {
@@ -189,13 +191,6 @@
   width: 100%;
   /* The width is the width of the web page */
   -webkit-overflow-scrolling: touch;
- }
-
- /* Contact */
-
- .btn.btn-secondary {
-  margin-top: 20px;
-  margin-bottom: 20px;
  }
 
  /* Footer */
@@ -238,6 +233,11 @@
  }
 
  /* Buttons */
+
+ .btn.btn-secondary {
+  margin-top: 20px;
+  margin-bottom: 20px;
+ }
 
  /* Section */
 

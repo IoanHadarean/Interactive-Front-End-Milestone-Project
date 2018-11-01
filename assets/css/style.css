@@ -1,14 +1,18 @@
- @import url('https://fonts.googleapis.com/css?family=Roboto:400|Exo: 400,500,800');
+ @import url('https://fonts.googleapis.com/css?family=Roboto:400|Exo:300,400,500,800');
 
  html,
  body {
   overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  background-color: #525252;
+  color: #555555;
  }
 
-.row {
- margin: 0px;
- padding: 0px;
-}
+ .row {
+  margin: 0px;
+  padding: 0px;
+ }
 
  /* Navigation */
 
@@ -215,6 +219,11 @@
   background-color: lightpink;
  }
 
+ .bg-color-work-history {
+  background-color: blue;
+ }
+
+
  .nav-color {
   background-color: lightpink;
  }
@@ -269,27 +278,117 @@
   color: white;
   font-size: 20px;
   margin: 0px;
+  padding: 10px;
  }
 
  /* Images */
 
  .image-section-1 {
   height: 360px;
-  background: url("../images/UK.jpg") no-repeat center
+  background: url("../images/UK.jpg") no-repeat center;
+  padding: 0;
  }
 
  .image-section-2 {
   height: 360px;
-  background: url("../images/USA.jpg") no-repeat center
+  background: url("../images/USA.jpg") no-repeat center;
+  padding: 0;
  }
 
  .image-section-3 {
   height: 360px;
-  background: url("../images/RO.jpg") no-repeat center
+  background: url("../images/RO.jpg") no-repeat center;
+  padding: 0;
  }
 
  .image-section-4 {
   height: 360px;
-  background: url("../images/AUS.jpg") no-repeat center
+  background: url("../images/AUS.jpg") no-repeat center;
+  padding: 0;
+ }
+
+ /* Itinerary */
+
+ .uppercase {
+  text-transform: uppercase;
+ }
+
+ .text-section {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+ }
+
+ .section-column {
+  padding: 0 30px 30px;
+  float: none;
+  display: table-row;
+  min-width: 360px;
+ }
+
+ .row-table {
+  display: table-row;
+ }
+
+ .history-heading {
+  font-family: "Exo", sans-serif;
+  font-weight: 300;
+  margin-top: 25px;
+  color: #000000;
+ }
+
+ /*----------------------------------------------------------------------------------------Skills*/
+
+ .itinerary-item {
+  padding: 4em 2em 0em 2em;
+  position: relative;
+  color: #fafafa;
+  border-left: 1px solid;
+ }
+
+ .itinerary-item::before {
+  content: attr(location);
+  position: absolute;
+  left: 2.5em;
+  top: 3em;
+  display: block;
+  font-family: "Exo", sans-serif;
+  font-weight: 800;
+  font-size: .8em;
+  padding: 0;
+  margin: 0;
+  color: black;
+ }
+
+ .itinerary-item::after {
+  width: 12px;
+  height: 12px;
+  display: block;
+  top: 2.4em;
+  position: absolute;
+  left: -6px;
+  border-radius: 12px;
+  content: '';
+  background: #fafafa;
+ }
+
+ .itinerary-items {
+  margin-bottom: 30px;
+ }
+
+ h4 {
+  margin: 0;
+  font-size: 12px;
+ }
+
+
+ /*----------------------------------------------------------------------------------------Media Queries*/
+
+ @media(min-width: 992px) {
+  .section-column {
+   float: none;
+   display: table-row;
+   min-width: 480px;
+  }
  }
  

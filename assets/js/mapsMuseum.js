@@ -53,7 +53,7 @@
    /** @type {!HTMLInputElement} */
    (
     document.getElementById('autocomplete')), {
-    types: ['(cities)'],
+    types: "cities",
     componentRestrictions: countryRestrict
    });
   places = new google.maps.places.PlacesService(map);
@@ -83,7 +83,7 @@
  function search() {
   var search = {
    bounds: map.getBounds(),
-   types: ['museum']
+   types: "museum"
   };
 
   places.nearbySearch(search, function(results, status) {

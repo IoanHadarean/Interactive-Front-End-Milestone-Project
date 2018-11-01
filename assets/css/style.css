@@ -222,13 +222,7 @@
 
  @media (min-width: 768px) {
   #map {
-   margin-top: 100px;
-  }
-  #locationField {
-   margin-top: 50px;
-  }
-  #controls {
-   margin-top: 50px;
+   margin-top: 60px;
   }
  }
 

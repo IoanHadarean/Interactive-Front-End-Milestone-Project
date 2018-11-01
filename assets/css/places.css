@@ -74,3 +74,16 @@
    text-align: right;
  }
  
+ /* Media Queries */
+ 
+ @media (min-width: 768px) {
+  #locationField {
+   margin-top: 10px;
+   width: 350px;
+  }
+  #controls {
+   margin-top: 10px;
+   width: 350px;
+  }
+ }
+ 

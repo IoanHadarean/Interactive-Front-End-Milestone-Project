@@ -4,7 +4,11 @@
  body {
   overflow-x: hidden;
  }
- 
+
+.row {
+ margin: 0px;
+ padding: 0px;
+}
 
  /* Navigation */
 
@@ -86,7 +90,7 @@
  .navbar-default .navbar-toggle:hover {
   background-color: transparent;
  }
- 
+
  .navbar-default .navbar-toggle .icon-bar {
   background-color: black;
  }
@@ -223,6 +227,13 @@
   }
  }
 
+ @media (min-width: 1200px) {
+  .row-reverse {
+   display: flex;
+   flex-direction: row-reverse;
+  }
+ }
+
  /* Buttons */
 
  .btn.btn-secondary {
@@ -247,10 +258,10 @@
  .removeMargins {
   margin-top: 60px;
  }
- 
+
  /* Destinations */
- 
-.destination {
+
+ .destination {
   display: flex;
   text-align: center;
   justify-content: center;
@@ -259,25 +270,26 @@
   font-size: 20px;
   margin: 0px;
  }
- 
+
  /* Images */
- 
+
  .image-section-1 {
   height: 360px;
   background: url("../images/UK.jpg") no-repeat center
  }
- 
+
  .image-section-2 {
   height: 360px;
   background: url("../images/USA.jpg") no-repeat center
  }
- 
+
  .image-section-3 {
   height: 360px;
   background: url("../images/RO.jpg") no-repeat center
  }
- 
+
  .image-section-4 {
   height: 360px;
   background: url("../images/AUS.jpg") no-repeat center
  }
+ 

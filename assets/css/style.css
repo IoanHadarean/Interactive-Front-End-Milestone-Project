@@ -257,5 +257,27 @@
   background-color: black;
   color: white;
   font-size: 20px;
+  margin: 0px;
  }
  
+ /* Images */
+ 
+ .image-section-1 {
+  height: 360px;
+  background: url("../images/UK.jpg") no-repeat center
+ }
+ 
+ .image-section-2 {
+  height: 360px;
+  background: url("../images/USA.jpg") no-repeat center
+ }
+ 
+ .image-section-3 {
+  height: 360px;
+  background: url("../images/RO.jpg") no-repeat center
+ }
+ 
+ .image-section-4 {
+  height: 360px;
+  background: url("../images/AUS.jpg") no-repeat center
+ }

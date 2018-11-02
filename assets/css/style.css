@@ -286,24 +286,28 @@
  .image-section-1 {
   height: 360px;
   background: url("../images/UK.jpg") no-repeat;
+  background-size: cover;
   padding: 0;
  }
 
  .image-section-2 {
   height: 360px;
   background: url("../images/USA.jpg") no-repeat;
+  background-size: cover;
   padding: 0;
  }
 
  .image-section-3 {
   height: 360px;
   background: url("../images/RO.jpg") no-repeat;
+  background-size: cover;
   padding: 0;
  }
 
  .image-section-4 {
   height: 360px;
   background: url("../images/AUS.jpg") no-repeat;
+  background-size: cover;
   padding: 0;
  }
 
@@ -313,7 +317,7 @@
   text-transform: uppercase;
  }
 
- .text-section .section-column{
+ .text-section .section-column {
   justify-content: center;
   padding: 0;
   padding: 0 30px 30px;
@@ -376,18 +380,4 @@
   font-size: 12px;
  }
 
-
- /*----------------------------------------------------------------------------------------Media Queries*/
-
- @media(min-width: 992px) {
-  .section-column {
-   float: none;
-   display: table-row;
-  }
-  .image-section-1 {
-   min-height: 419px;
-  }
- }
- 
-@media (min-width: 768px)
  

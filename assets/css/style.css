@@ -228,21 +228,6 @@
   background-color: lightpink;
  }
 
- /* Media Queries */
-
- @media (min-width: 768px) {
-  #map {
-   margin-top: 60px;
-  }
- }
-
- @media (min-width: 1200px) {
-  .row-reverse {
-   display: flex;
-   flex-direction: row-reverse;
-  }
- }
-
  /* Buttons */
 
  .btn.btn-secondary {
@@ -380,4 +365,33 @@
   font-size: 12px;
  }
 
+ /* Media Queries */
+
+ @media (min-width: 768px) {
+  #map {
+   margin-top: 60px;
+  }
+ }
+ 
+ @media (min-width: 992px) {
+  .image-section-1 {
+   min-height: 419px;
+  }
+  .image-section-2 {
+   min-height: 419px;
+  }
+  .image-section-3 {
+   min-height: 419px;
+  }
+  .image-section-4 {
+   min-height: 419px;
+  }
+ }
+
+ @media (min-width: 1200px) {
+  .row-reverse {
+   display: flex;
+   flex-direction: row-reverse;
+  }
+ }
  

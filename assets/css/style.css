@@ -285,25 +285,25 @@
 
  .image-section-1 {
   height: 360px;
-  background: url("../images/UK.jpg") no-repeat center;
+  background: url("../images/UK.jpg") no-repeat;
   padding: 0;
  }
 
  .image-section-2 {
   height: 360px;
-  background: url("../images/USA.jpg") no-repeat center;
+  background: url("../images/USA.jpg") no-repeat;
   padding: 0;
  }
 
  .image-section-3 {
   height: 360px;
-  background: url("../images/RO.jpg") no-repeat center;
+  background: url("../images/RO.jpg") no-repeat;
   padding: 0;
  }
 
  .image-section-4 {
   height: 360px;
-  background: url("../images/AUS.jpg") no-repeat center;
+  background: url("../images/AUS.jpg") no-repeat;
   padding: 0;
  }
 
@@ -313,17 +313,12 @@
   text-transform: uppercase;
  }
 
- .text-section {
-  display: flex;
+ .text-section .section-column{
   justify-content: center;
   padding: 0;
- }
-
- .section-column {
   padding: 0 30px 30px;
   float: none;
   display: table-row;
-  min-width: 360px;
  }
 
  .row-table {
@@ -388,7 +383,11 @@
   .section-column {
    float: none;
    display: table-row;
-   min-width: 480px;
+  }
+  .image-section-1 {
+   min-height: 419px;
   }
  }
+ 
+@media (min-width: 768px)
  

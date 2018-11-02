@@ -1,26 +1,31 @@
  @import url('https://fonts.googleapis.com/css?family=Roboto:400|Exo:300,400,500,800');
 
-/* Special paddings, margins and styling */
+ /* --------------------------Special paddings, margins and styling */
+
  html,
  body {
   overflow-x: hidden;
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  background-color: #525252;
-  color: #555555;
+  font-weight: 400;
  }
 
  .row {
   margin: 0px;
   padding: 0px;
  }
- 
-  h4 {
+
+ h4 {
   margin: 0;
   font-size: 12px;
  }
 
- /* Navigation */
+ .container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 100%;
+ }
+
+ /* -------------------------------------------Navigation */
 
  #nav {
   margin: 0;
@@ -192,7 +197,7 @@
  }
 
 
- /* Map */
+ /* -------------------------------------------Map */
 
  /* Set the size of the div element that contains the map */
 
@@ -204,7 +209,7 @@
   -webkit-overflow-scrolling: touch;
  }
 
- /* Footer */
+ /* -------------------------------------------------Footer */
 
  #footer {
   width: 100%;
@@ -214,16 +219,12 @@
   justify-content: center;
   text-align: center;
  }
- 
+
  .col-lg-12 {
   margin-top: 40px;
  }
- 
 
- 
-
-
- /* Colors */
+ /* ------------------------------------------------Colors */
 
  .footer-bg {
   background-color: grey;
@@ -248,15 +249,7 @@
   margin-bottom: 20px;
  }
 
- /* Section */
-
- .container-fluid {
-  padding-left: 0px;
-  padding-right: 0px;
-  width: 100%;
- }
-
- /* jQuery */
+ /* -----------------------------------------------jQuery */
 
  .addMargins {
   margin-top: 110px;
@@ -266,7 +259,7 @@
   margin-top: 60px;
  }
 
- /* Destinations */
+ /* ----------------------------------------------------Destinations */
 
  .destination {
   display: flex;
@@ -279,7 +272,7 @@
   padding: 10px;
  }
 
- /* Images */
+ /* -------------------------------------------------------------Images */
 
  .image-section-1 {
   height: 360px;
@@ -309,7 +302,7 @@
   padding: 0;
  }
 
- /* Itinerary */
+ /* --------------------------------------------------------------Itinerary */
 
  .uppercase {
   text-transform: uppercase;
@@ -334,7 +327,7 @@
   color: #000000;
  }
 
- /*----------------------------------------------------------------------------------------Skills*/
+ /*----------------------------------------------------------------------------------------Itinerary Items*/
 
  .itinerary-item {
   padding: 4em 2em 0em 2em;
@@ -373,14 +366,14 @@
   margin-bottom: 30px;
  }
 
- /* Media Queries */
+ /* -------------------------------------------------------------------------------Media Queries */
 
  @media (min-width: 768px) {
   #map {
    margin-top: 60px;
   }
  }
- 
+
  @media (min-width: 992px) {
   .image-section-1 {
    min-height: 523px;

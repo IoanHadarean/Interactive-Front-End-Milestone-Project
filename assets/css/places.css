@@ -2,6 +2,10 @@
    font-size: 12px;
  }
 
+#places {
+ margin-top: 300px;
+ margin-left: 300px;
+}
  #listing {
    position: absolute;
    width: auto;

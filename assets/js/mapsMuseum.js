@@ -53,6 +53,7 @@
    /** @type {!HTMLInputElement} */
    (
     document.getElementById('autocomplete')), {
+    types: ['(cities)'],
     componentRestrictions: countryRestrict
    });
   places = new google.maps.places.PlacesService(map);
@@ -79,10 +80,15 @@
  }
 
  // Search for hotels in the selected city, within the viewport of the map.
- function search() {
-  var search = {
+  function search() {
+  let poi = 'lodging';
+
+  if (document.getElementById("museum").checked) poi = 'museum';
+
+  let search = {
+
    bounds: map.getBounds(),
-   types: "museum"
+   types: [poi]
   };
 
   places.nearbySearch(search, function(results, status) {
@@ -243,4 +249,7 @@
    document.getElementById('iw-website-row').style.display = 'none';
   }
  }
+
+
+ 
  

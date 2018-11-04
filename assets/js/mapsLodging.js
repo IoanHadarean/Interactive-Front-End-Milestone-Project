@@ -45,6 +45,7 @@
     componentRestrictions: countryRestrict
    });
   places = new google.maps.places.PlacesService(map);
+  console.log(places);
 
   autocomplete.addListener('place_changed', onPlaceChanged);
 
@@ -69,10 +70,29 @@
 
  // Search for hotels in the selected city, within the viewport of the map.
  function search() {
-  var search = {
+  let poi = 'lodging';
+
+    var rad = document.getElementsByName('option');
+    var prev = null;
+    for(var i = 0; i < rad.length; i++) {
+        rad[i].addEventListener('change', function() {
+            (prev)? console.log(prev.value):null;
+            if(this !== prev) {
+                prev = this;
+            }
+            console.log(this.value);
+        });
+    }
+
+
+  if (document.getElementById("museum").checked) poi = 'museum';
+
+  let search = {
+
    bounds: map.getBounds(),
-   types: ['lodging']
+   types: [poi]
   };
+
 
 
   places.nearbySearch(search, function(results, status) {
@@ -81,6 +101,7 @@
     clearMarkers();
     // Create a marker for each hotel found, and
     // assign a letter of the alphabetic to each marker icon.
+    console.log(results);
     for (var i = 0; i < results.length; i++) {
      var markerLetter = String.fromCharCode('A'.charCodeAt(0) + (i % 26));
      var markerIcon = MARKER_PATH + markerLetter + '.png';
@@ -233,3 +254,4 @@
    document.getElementById('iw-website-row').style.display = 'none';
   }
  }
+ 

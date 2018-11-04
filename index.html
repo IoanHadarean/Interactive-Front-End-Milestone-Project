@@ -25,8 +25,6 @@
 
     <!-- Navigation -->
 
-
-
     <nav class="navbar navbar-default container-fluid">
         <div class="container-fluid nav-bg">
 
@@ -77,18 +75,28 @@
     <section>
         <div class="container-fluid">
 
+
+            <div id="places">
+                <input onchange="search()" type="radio" id="lodging" name="option" />
+                <label for="lodging">Lodging</label>
+                <input onchange="search()" type="radio" id="museum" name="option" />
+                <label for="museum">Museum</label>
+            </div>
+
+
+
             <div id="locationField">
                 <input id="autocomplete" placeholder="Enter a location" type="text" />
             </div>
 
             <div id="controls">
                 <select id="country">
-                        <option value ="all" selected>All</option>
-                        <option value="us">U.S.A.</option>
-                        <option value = "uk">UK</option>
-                        <option value ="aus">Australia</option>
-                        <option value ="ro">Romania</option>
-                    </select>
+                    <option value ="all" selected>All</option>
+                    <option value="us">U.S.A.</option>
+                    <option value = "uk">UK</option>
+                    <option value ="aus">Australia</option>
+                    <option value ="ro">Romania</option>
+                </select>
             </div>
         </div>
 
@@ -334,6 +342,7 @@
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script src="assets/js/mapsMuseum.js"></script>
     <script src="assets/js/sendMail.js"></script>
+    <script src="assets/js/radio.js"></script>
     <script type="text/javascript" src="assets/js/nav.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwpWWSUqZ4atKTwwMw9Sz4Kk0nnXyCjx0&libraries=places&callback=initMap" async defer></script>
 </body>

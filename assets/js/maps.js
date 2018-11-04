@@ -15,6 +15,7 @@
  var hostnameRegexp = new RegExp('^https?://.+?/');
 
  var countries = {
+  
   'us': {
    center: { lat: 39.381266, lng: -97.922211 },
    zoom: 3
@@ -35,8 +36,8 @@
 
  function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
-   zoom: countries['us'].zoom,
-   center: countries['us'].center,
+   zoom: countries['uk'].zoom,
+   center: countries['uk'].center,
    mapTypeControl: false,
    panControl: false,
    zoomControl: false,
@@ -80,7 +81,7 @@
  }
 
  // Search for hotels in the selected city, within the viewport of the map.
-  function search() {
+ function search() {
   let poi = 'lodging';
 
   if (document.getElementById("museum").checked) poi = 'museum';
@@ -130,7 +131,7 @@
  // Also center and zoom the map on the given country.
  function setAutocompleteCountry() {
   var country = document.getElementById('country').value;
-  if (country == 'all') {
+  if (country == 'all'){
    autocomplete.setComponentRestrictions({ 'country': [] });
    map.setCenter({ lat: 15, lng: 0 });
    map.setZoom(2);
@@ -249,7 +250,4 @@
    document.getElementById('iw-website-row').style.display = 'none';
   }
  }
-
-
- 
  

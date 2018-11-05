@@ -370,24 +370,18 @@
 
  /* -------------------------------------------------------------------------------Media Queries */
 
- @media (min-width: 768px) {
-  #map {
-   margin-top: 60px;
-  }
- }
-
  @media (min-width: 992px) {
   .image-section-1 {
-   min-height: 523px;
+   min-height: 555px;
   }
   .image-section-2 {
-   min-height: 523px;
+   min-height: 555px;
   }
   .image-section-3 {
-   min-height: 523px;
+   min-height: 555px;
   }
   .image-section-4 {
-   min-height: 523px;
+   min-height: 555px;
   }
  }
 

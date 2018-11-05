@@ -95,15 +95,12 @@
 
  @media (min-width: 768px) {
   #locationField {
-   margin-top: 10px;
    width: 350px;
   }
   #controls {
-   margin-top: 10px;
    width: 350px;
   }
   #listing {
-   margin-top: 10px;
    height: 350px;
   }
  }

@@ -18,7 +18,7 @@ The website also allows users to send emails for project requests via the contac
 
 The website uses HTML and HTML5 markup language to put the structure of the website in place. It also 
 uses CSS and Bootstrap to style the website. Javascript and jQuery have helped to the functionality of the 
-website by allowing website visitors to toggle the menu when viewed in mobile, to find different places based on a change
+website by allowing website visitors to toggle the menu and resize it when viewed in mobile, to find different places based on a change
 function and to send emails via the contact form. Furthermore, these technologies allow those interested in the BulletTravel agency
 to find particular destinations on Google Maps and to search for accomodation, hotels, restaurants, points of interest etc.
 The website can be viewed [here](https://ioanhadarean.github.io/Interactive-Front-End-Milestone-Project/).

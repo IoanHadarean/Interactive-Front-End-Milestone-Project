@@ -250,10 +250,12 @@
 
  /* -----------------------------------------------jQuery */
 
+/* Added margins when toggling on mobile for locationField, controls and listing */
  .newMargins {
   margin-top: 55px;
  }
 
+/* Added special margins for places when toggling on mobile */
  .placesMargins {
   margin-top: 105px;
  }

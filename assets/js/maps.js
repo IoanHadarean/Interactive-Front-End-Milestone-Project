@@ -1,10 +1,11 @@
- // This example uses the autocomplete feature of the Google Places API.
- // It allows the user to find all hotels in a given place, within a given
- // country. It then displays markers for all the hotels returned,
- // with on-click details for each hotel.
+ // This file uses the autocomplete feature of the Google Places API.
+ // It allows the user to find accomodation, restaurants, bars, museums,
+ // airports and banks in a given place, within a given
+ // country. It then displays markers for all the places returned,
+ // with on-click details for each place.
 
- // This example requires the Places library. Include the libraries=places
- // parameter when you first load the API. For example:
+ // This file requires the Places library. The following snippet needs 
+ // to be added in order to make sure Google Maps API and Google Places API work:
  // <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places">
 
  var map, places, infoWindow;

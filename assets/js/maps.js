@@ -87,6 +87,9 @@
   if (document.getElementById("museum").checked) poi = 'museum';
   if (document.getElementById("restaurant").checked) poi = 'restaurant';
   if (document.getElementById("bar").checked) poi = 'bar';
+  if (document.getElementById("airport").checked) poi = 'airport';
+  if (document.getElementById("bank").checked) poi = 'bank';
+
 
   let search = {
 

@@ -21,10 +21,10 @@
  #listing {
   position: absolute;
   width: auto;
-  height: 300px;
+  height: 350px;
   overflow: auto;
   left: 0px;
-  top: 150px;
+  top: 155px;
   cursor: pointer;
  }
 

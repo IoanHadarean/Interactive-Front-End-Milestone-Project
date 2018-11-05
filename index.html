@@ -75,9 +75,9 @@
     <section>
         <div class="container-fluid">
 
-            <div class="row col-lg-12">
+            <div id="placestoggle" class="row col-lg-12">
                 <div id="places">
-                    <span>Find: </span>
+                    <span class="hidden-xs">Find: </span>
                     <input onchange="search()" type="radio" id="lodging" name="option" checked="checked" />
                     <label for="lodging">Lodging</label>
                     <input onchange="search()" type="radio" id="museum" name="option" />
@@ -92,6 +92,7 @@
                     <label for="bank">Bank</label>
                 </div>
             </div>
+
 
             <div id="locationField">
                 <input id="autocomplete" placeholder="Enter a location" type="text" />

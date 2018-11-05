@@ -15,7 +15,7 @@
  var hostnameRegexp = new RegExp('^https?://.+?/');
 
  var countries = {
-  
+
   'us': {
    center: { lat: 39.381266, lng: -97.922211 },
    zoom: 3
@@ -41,7 +41,7 @@
    mapTypeControl: false,
    panControl: false,
    zoomControl: false,
-   streetViewControl: false
+   streetViewControl: false,
   });
 
   infoWindow = new google.maps.InfoWindow({
@@ -136,7 +136,7 @@
  // Also center and zoom the map on the given country.
  function setAutocompleteCountry() {
   var country = document.getElementById('country').value;
-  if (country == 'all'){
+  if (country == 'all') {
    autocomplete.setComponentRestrictions({ 'country': [] });
    map.setCenter({ lat: 15, lng: 0 });
    map.setZoom(2);

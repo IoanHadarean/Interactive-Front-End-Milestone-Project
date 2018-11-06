@@ -233,7 +233,7 @@
   background-color: lightpink;
  }
 
- .bg-color-work-history {
+ .bg-color-itinerary {
   background-color: lightpink;
  }
 
@@ -323,7 +323,7 @@
   display: table-row;
  }
 
- .history-heading {
+ .heading {
   font-family: "Exo", sans-serif;
   font-weight: 300;
   margin-top: 25px;
@@ -366,6 +366,19 @@
 
  .itinerary-items {
   margin-bottom: 30px;
+ }
+ 
+ /* -------------------------------------------------------------------------------Contact Form */
+ 
+ .contact {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: lightblue;
+  color: black;
+  font-size: 20px;
+  margin: 0px;
+  padding: 10px;
  }
 
  /* -------------------------------------------------------------------------------Media Queries */

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/places.css" type="text/css" />
     <link rel="shortcut icon" href="#">
@@ -18,6 +19,11 @@
             emailjs.init("user_tMIk9Q6XHYZNUils42nTh");
         })();
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
     <title>BulletTravel</title>
 </head>
 
@@ -76,7 +82,7 @@
         <div class="container-fluid">
 
             <div id="placestoggle" class="row col-lg-12">
-                <div id="places">
+                <div class="wow animated fadeIn" id="places">
                     <span class="hidden-xs">Find: </span>
                     <input onchange="search()" type="radio" id="lodging" name="option" checked="checked" />
                     <label for="lodging">Hotel</label>
@@ -149,7 +155,7 @@
         <!-- Destinations -->
         <!-- United Kingdom -->
         <div id="uk" class="container-fluid">
-            <h2 class="destination">United Kingdom Tour - 400£/person</h2>
+            <h2 class="wow animated fadeIn destination">United Kingdom Tour - 400£/person</h2>
             <div class="col-lg-4 text-section bg-color-work-history section-column">
                 <div class="row row-table">
                     <div class="row">
@@ -191,7 +197,7 @@
 
         <!-- United States of America -->
         <div id="usa" class="container-fluid">
-            <h2 class="destination">United States of America Tour - 300£/person</h2>
+            <h2 class="wow animated fadeIn destination">United States of America Tour - 300£/person</h2>
             <div class="row row-reverse">
                 <div class="col-lg-4 text-section bg-color-work-history section-column">
                     <div class="row row-table">
@@ -234,7 +240,7 @@
 
         <!-- Romania -->
         <div id="ro" class="container-fluid">
-            <h2 class="destination">Romania Tour - 200£/person</h2>
+            <h2 class="wow animated fadeIn destination">Romania Tour - 200£/person</h2>
             <div class="col-lg-4 text-section bg-color-work-history section-column">
                 <div class="row row-table">
                     <div class="row">
@@ -275,7 +281,7 @@
 
         <!-- Australia -->
         <div id="aus" class="container-fluid">
-            <h2 class="destination">Australia Tour - 500£/person</h2>
+            <h2 class="wow animated fadeIn destination">Australia Tour - 500£/person</h2>
             <div class="row row-reverse">
                 <div class="col-lg-4 text-section bg-color-work-history section-column">
                     <div class="row row-table">

@@ -55,7 +55,6 @@
    /** @type {!HTMLInputElement} */
    (
     document.getElementById('autocomplete')), {
-    types: ['(cities)'],
     componentRestrictions: countryRestrict
    });
   places = new google.maps.places.PlacesService(map);

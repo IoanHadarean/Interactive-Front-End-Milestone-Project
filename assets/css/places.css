@@ -1,130 +1,135 @@
- table {
-  font-size: 12px;
- }
 
- label {
-  font-size: 12px;
-  margin-right: 1px;
- }
+/* ------------------------------------------------------------Filtered places */
 
- input[name="option"] {
-  height: 10px;
- }
+#places {
+ top: 50px;
+ background-color: black;
+ color: white;
+ font-size: 14px;
+ padding: 15px;
+ display: flex;
+ text-align: center;
+ justify-content: center;
+}
 
- #places {
-  top: 50px;
-  background-color: black;
-  color: white;
-  font-size: 14px;
-  padding: 15px;
-  display: flex;
-  text-align: center;
-  justify-content: center;
- }
+#places span {
+ margin-right: 5px;
+ font-size: 14px;
+}
 
- #places span {
-  margin-right: 5px;
-  font-size: 14px;
- }
+label {
+ font-size: 12px;
+ margin-right: 1px;
+}
 
+input[name="option"] {
+ height: 10px;
+}
 
- #listing {
-  position: absolute;
-  width: auto;
-  height: 350px;
-  overflow: auto;
-  left: 0px;
-  top: 152px;
-  cursor: pointer;
- }
+/* -------------------------------------------------------------Place listing, country select and search field */
 
+#listing {
+ position: absolute;
+ width: auto;
+ height: 350px;
+ overflow: auto;
+ left: 0px;
+ top: 152px;
+ cursor: pointer;
+}
+
+#locationField {
+ position: absolute;
+ width: 180px;
+ height: 25px;
+ left: 0px;
+ top: 102px;
+ z-index: 5;
+ background-color: #fff;
+}
+
+#controls {
+ position: absolute;
+ left: 0px;
+ width: 180px;
+ top: 127px;
+ z-index: 5;
+ background-color: #fff;
+}
+
+#autocomplete {
+ width: 100%;
+}
+
+#country {
+ width: 100%;
+ height: 25px;
+}
+
+/* --------------------------------------------------------------------------------- Results */
+
+.placeIcon {
+ width: 20px;
+ height: 34px;
+ margin: 4px;
+}
+
+.hotelIcon {
+ width: 24px;
+ height: 24px;
+}
+
+table {
+ font-size: 12px;
+}
+
+#resultsTable {
+ border-collapse: collapse;
+ width: 240px;
+}
+
+#rating {
+ font-size: 13px;
+ font-family: Arial Unicode MS;
+}
+
+.iw_table_row {
+ height: 18px;
+}
+
+.iw_attribute_name {
+ font-weight: bold;
+ text-align: right;
+}
+
+.iw_table_icon {
+ text-align: right;
+}
+
+/* Media Queries */
+
+@media (min-width: 768px) {
  #locationField {
-  position: absolute;
-  width: 180px;
-  height: 25px;
-  left: 0px;
-  top: 102px;
-  z-index: 5;
-  background-color: #fff;
+  width: 350px;
  }
-
  #controls {
-  position: absolute;
-  left: 0px;
-  width: 180px;
-  top: 127px;
-  z-index: 5;
-  background-color: #fff;
+  width: 350px;
+ }
+ #listing {
+  height: 355px;
+ }
+ input[name="option"] {
+  height: 14px;
+ }
+ label {
+  font-size: 16px;
+  margin-right: 5px;
+ }
+ #places span {
+  font-size: 16px;
+ }
+ #locationField {
+  top: 107px;
  }
 
- #autocomplete {
-  width: 100%;
- }
-
- #country {
-  width: 100%;
-  height: 25px;
- }
-
- .placeIcon {
-  width: 20px;
-  height: 34px;
-  margin: 4px;
- }
-
- .hotelIcon {
-  width: 24px;
-  height: 24px;
- }
-
- #resultsTable {
-  border-collapse: collapse;
-  width: 240px;
- }
-
- #rating {
-  font-size: 13px;
-  font-family: Arial Unicode MS;
- }
-
- .iw_table_row {
-  height: 18px;
- }
-
- .iw_attribute_name {
-  font-weight: bold;
-  text-align: right;
- }
-
- .iw_table_icon {
-  text-align: right;
- }
-
- /* Media Queries */
-
- @media (min-width: 768px) {
-  #locationField {
-   width: 350px;
-  }
-  #controls {
-   width: 350px;
-  }
-  #listing {
-   height: 355px;
-  }
-  input[name="option"] {
-   height: 14px;
-  }
-  label {
-   font-size: 16px;
-   margin-right: 5px;
-  }
-  #places span {
-   font-size: 16px;
-  }
-  #locationField {
-   top: 107px;
-  }
-
- }
- 
+}

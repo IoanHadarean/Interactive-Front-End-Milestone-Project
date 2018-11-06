@@ -112,7 +112,7 @@ SVG can be added as a feature because -webkit-text-stroke-width and -webkit-text
 ## Deployment
 
 The coding for the project was done in Cloud9. The code has been committed and pushed to https://github.com/IoanHadarean/Interactive-Front-End-Milestone-Project. 
-The website has been published using GitHub Pages at the following address: https://ioanhadarean.github.io/Interactive-Front-End-Milestone-Project//
+The website has been published using GitHub Pages at the following address: https://ioanhadarean.github.io/Interactive-Front-End-Milestone-Project/
 
 ### Getting the code up and running
 

@@ -369,7 +369,15 @@
  }
 
  /* -------------------------------------------------------------------------------Media Queries */
-
+@media (min-width: 768px) {
+ .menuitem {
+  width: 14%;
+  height: 40px;
+ }
+ .menuitem span {
+  font-size: 14px;
+ }
+}
  @media (min-width: 992px) {
   .image-section-1 {
    min-height: 555px;

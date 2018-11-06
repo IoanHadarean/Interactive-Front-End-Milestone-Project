@@ -40,7 +40,7 @@ input[name="option"] {
 
 #locationField {
  position: absolute;
- width: 180px;
+ width: 250px;
  height: 25px;
  left: 0px;
  top: 102px;
@@ -51,7 +51,7 @@ input[name="option"] {
 #controls {
  position: absolute;
  left: 0px;
- width: 180px;
+ width: 250px;
  top: 127px;
  z-index: 5;
  background-color: #fff;
@@ -131,5 +131,4 @@ table {
  #locationField {
   top: 107px;
  }
-
 }

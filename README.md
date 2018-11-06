@@ -99,14 +99,15 @@ SVG can be added as a feature because -webkit-text-stroke-width and -webkit-text
 ## Testing
 
 1. Prototype code was written and tested using Cloud9 and Chrome Developer Tools.
-2. All code used on the site has been tested using [The W3 CSS Validation Service](https://jigsaw.w3.org/css-validator/) 
+2. All HTML and CSS code used on the site has been tested using [The W3 CSS Validation Service](https://jigsaw.w3.org/css-validator/) 
             and [The W3 Markup Validation Service](https://validator.w3.org/).
-3. Site viewed and tested in the following browsers(including toggle functionality, filtering type places and using Google Maps):
+3. All Javascript and jQuery code on the website has been tested using [JSHint](https://jshint.com/).
+4. Site viewed and tested in the following browsers(including toggle functionality, filtering type places and using Google Maps):
 <br>    i Google Chrome
 <br>    ii Mozilla Firefox
 <br>    iii Opera
 <br>    iv Internet Explorer
-4. The sending emails function was tested using Gmail and EmailJS.
+5. The sending emails function was tested using Gmail and EmailJS.
 
 ## Deployment
 
@@ -123,7 +124,7 @@ The website has been published using GitHub Pages at the following address: http
 ## Credits
 
 I would like to thank all code institute students for helping me along this project. Special thanks goes to my mentor Moosa Hassan for his amazing support
-and guidance. I would also like to thank Marcin, a student from Code Institute, who helped me by providing documentation.
+and guidance. I would also like to thank Marcin and Shane, two students from the Code Institute who helped me by providing documentation.
 
 ### Media
 

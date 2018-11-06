@@ -34,7 +34,7 @@
   height: 350px;
   overflow: auto;
   left: 0px;
-  top: 155px;
+  top: 152px;
   cursor: pointer;
  }
 
@@ -110,7 +110,7 @@
    width: 350px;
   }
   #listing {
-   height: 350px;
+   height: 355px;
   }
   input[name="option"] {
    height: 14px;
@@ -125,5 +125,6 @@
   #locationField {
    top: 107px;
   }
+
  }
  

@@ -340,7 +340,7 @@
  }
 
  .itinerary-item::before {
-  content: attr(location);
+  content: attr(title);
   position: absolute;
   left: 2em;
   top: 2.3em;

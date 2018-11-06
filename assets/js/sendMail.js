@@ -13,8 +13,6 @@ function sendMail(form) {
         },
         function (error) {
             console.log("FAILED", error);
-        },
-        function(redirect) {
-            window.location="index.html";
         });
+        return true;
 }

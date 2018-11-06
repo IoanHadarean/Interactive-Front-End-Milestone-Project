@@ -2,6 +2,15 @@
   font-size: 12px;
  }
 
+ label {
+  font-size: 12px;
+  margin-right: 1px;
+ }
+
+ input[name="option"] {
+  height: 10px;
+ }
+
  #places {
   top: 50px;
   background-color: black;
@@ -34,7 +43,7 @@
   width: 180px;
   height: 25px;
   left: 0px;
-  top: 105px;
+  top: 102px;
   z-index: 5;
   background-color: #fff;
  }
@@ -43,7 +52,7 @@
   position: absolute;
   left: 0px;
   width: 180px;
-  top: 130px;
+  top: 127px;
   z-index: 5;
   background-color: #fff;
  }
@@ -102,6 +111,19 @@
   }
   #listing {
    height: 350px;
+  }
+  input[name="option"] {
+   height: 14px;
+  }
+  label {
+   font-size: 16px;
+   margin-right: 5px;
+  }
+  #places span {
+   font-size: 16px;
+  }
+  #locationField {
+   top: 107px;
   }
  }
  

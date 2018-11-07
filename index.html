@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
+
     <!-- References for CSS stylings, animations, fonts, hover etc. -->
-    
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -15,28 +15,28 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/places.css" type="text/css" />
-    
+
     <!-- Fixes favicon.ico error -->
-    
+
     <link rel="shortcut icon" href="#">
-    
+
     <!-- References and initialises emailjs -->
-    
+
     <script src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
     <script>
         (function() {
             emailjs.init("user_tMIk9Q6XHYZNUils42nTh");
         })();
     </script>
-    
+
     <!-- References and initialises wow.js  -->
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script>
         new WOW().init();
     </script>
     <title>BulletTravel</title>
- 
+
 </head>
 
 <body>
@@ -97,9 +97,9 @@
 
 
             <!-- Radio buttons for places -->
-            
+
             <div id="placestoggle" class="row col-lg-12">
-                <div class="wow animated fadeIn" id="places">
+                <div id="places">
                     <span class="hidden-xs">Find: </span>
                     <input onchange="search()" type="radio" id="lodging" name="option" checked="checked" />
                     <label for="lodging">Hotel</label>
@@ -135,8 +135,9 @@
         </div>
 
         <!-- Google Maps -->
-
-        <div id="map"></div>
+        <div id="container">
+            <div id="map"></div>
+        </div>
 
 
         <!-- Listing table for place types -->
@@ -359,8 +360,7 @@
             <div class="center-form">
                 <form id="form" onsubmit="return sendMail(this);">
                     <input required="required" type="text" name="name" class="form-control" id="fullname" placeholder="Name" />
-                    <input required="required" type="email" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" 
-                           pattern=".+@gmail.com" size="30" title="Must be a gmail.com email address" />
+                    <input required="required" type="email" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" pattern=".+@gmail.com" size="30" title="Must be a gmail.com email address" />
                     <textarea required="required" rows="5" name="enquiry" class="form-control" id="enquiry" placeholder="Please fill out an enquiry form"></textarea>
                     <button id="contact" type="submit" class="btn btn-secondary center-block">Submit</button>
                 </form>
@@ -382,30 +382,30 @@
     </section>
 
     <!-- jQuery and Javascript for site functionalities -->
-   
+
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    
+
     <!-- Google Maps script for markers on the map -->
-    
+
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-    
+
     <!-- This script uses the autocomplete feature of the Google Places API. -->
-         
+
     <script src="assets/js/libraries/maps.js"></script>
-    
+
     <!-- Sends emails on submit button using the contact form -->
-    
+
     <script src="assets/js/sendMail.js"></script>
-    
+
     <!-- Filters the radio buttons by type checked -->
-    
+
     <script src="assets/js/radio.js"></script>
-    
+
     <!-- Resizing the menu on toggle when viewed in mobile -->
-    
+
     <script src="assets/js/nav.js"></script>
-    
+
     <!-- Load the API from the specified URL
     *The async attribute allows the browser to render the page while the API loads
     *The key parameter will contain the API key(needed in order for Google Maps to work)

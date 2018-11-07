@@ -356,12 +356,12 @@
     <section>
         <h3 class="contact">Do You Want to Contact Us?</h3>
         <div class="container-fluid">
-            <div id="form" class="center-form">
-                <form onsubmit="return sendMail(this);">
-                    <input required type="text" name="name" class="form-control" id="fullname" placeholder="Name" />
-                    <input required type="email" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" 
+            <div class="center-form">
+                <form id="form" onsubmit="return sendMail(this);">
+                    <input required="required" type="text" name="name" class="form-control" id="fullname" placeholder="Name" />
+                    <input required="required" type="email" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" 
                            pattern=".+@gmail.com" size="30" title="Must be a gmail.com email address" />
-                    <textarea required rows="5" name="enquiry" class="form-control" id="enquiry" placeholder="Please fill out an enquiry form"></textarea>
+                    <textarea required="required" rows="5" name="enquiry" class="form-control" id="enquiry" placeholder="Please fill out an enquiry form"></textarea>
                     <button id="contact" type="submit" class="btn btn-secondary center-block">Submit</button>
                 </form>
             </div>

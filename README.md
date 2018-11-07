@@ -83,16 +83,16 @@ SVG can be added as a feature because -webkit-text-stroke-width and -webkit-text
     <br>Languages that were used to create the Dragon Ball Series website.
 2. **Bootstrap v3.3.7**(https://getbootstrap.com/docs/3.3/getting-started/#download)
     <br>**Bootstrap** was used to give the project a simple and responsive layout.
-3. **jQuery**(http://code.jquery.com/)
+3. **jQuery**(https://cdnjs.com/libraries/jquery/)
       <br>**jQuery** was used for toggling the navigation and for filtering the different place types.
 4. **Font Awesome v4.7.0**(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css)
     <br>**Font Awesome v5.3.1**(https://use.fontawesome.com/releases/v5.3.1/css/all.css)
     <br>Font and icon toolkits based on CSS and LESS that were used to style the website.
 5. **Google Fonts**(https://fonts.google.com/)
     <br>**Google Fonts** was used to style the text on the website(Roboto and Exo font-family).
-6.**Javascript**(https://www.javascript.com/)
+6. **Javascript**(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js)
     <br>**Javascript** was used to put Google Maps on the website and to send emails for a project request using the contact form.
-7.**EmailJS**(http://www.emailjs.com/)
+7. **EmailJS**(http://www.emailjs.com/)
     <br>**EmailJS** is an application that was used to add an email template for sending emails via the contact form.
     <br>EmailJS is an aplication that allows users to send emails directly from Javascript.
 
@@ -107,7 +107,7 @@ SVG can be added as a feature because -webkit-text-stroke-width and -webkit-text
 <br>    ii Mozilla Firefox
 <br>    iii Opera
 <br>    iv Internet Explorer
-5. The sending emails function was tested using Gmail and EmailJS.
+5. Sending emails functionality was tested using Gmail and EmailJS.
 
 ## Deployment
 

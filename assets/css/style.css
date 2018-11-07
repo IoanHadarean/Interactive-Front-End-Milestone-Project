@@ -380,6 +380,28 @@
   margin: 0px;
   padding: 10px;
  }
+ 
+ .center-form {
+  displaY: flex;
+  text-align: center;
+  justify-content: center;
+ }
+ 
+ #form {
+  margin-top: 20px;
+ }
+ 
+ #form>input {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 75vw;
+  height: 30px;
+ }
+ 
+ #form>textarea {
+  height: 80px;
+  width: 75vw;
+ }
 
  /* -------------------------------------------------------------------------------Media Queries */
 @media (min-width: 768px) {
@@ -389,6 +411,13 @@
  }
  .menuitem span {
   font-size: 14px;
+ }
+ #form>input {
+  width: 50vw;
+ }
+ 
+ #form>textarea {
+  width: 50vw;
  }
 }
  @media (min-width: 992px) {

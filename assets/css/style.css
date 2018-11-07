@@ -23,6 +23,7 @@
   padding-left: 0px;
   padding-right: 0px;
   width: 100%;
+  background-color: lightgray;
  }
 
  /* -------------------------------------------Navigation */
@@ -202,16 +203,10 @@
 
  /* Set the size of the div element that contains the map */
 
- #map {
-  height: 400px;
-  /* The height is 400 pixels */
-  width: 100%;
-  /* The width is the width of the web page */
- }
- 
- #container {
-  width: 75vw;
+ #container, #map {
+  width: 80vw;
   height: 75vh;
+  top: 70px;
  }
 
  /* -------------------------------------------------Footer */
@@ -256,16 +251,18 @@
 
  /* -----------------------------------------------jQuery */
 
-/* Added margins when toggling on mobile for locationField, controls and listing */
+ /* Added margins when toggling on mobile for locationField, controls and listing */
+
  .newMargins {
   margin-top: 55px;
  }
 
-/* Added special margins for places when toggling on mobile */
+ /* Added special margins for places when toggling on mobile */
+
  .placesMargins {
   margin-top: 105px;
  }
- 
+
 
 
  /* ----------------------------------------------------Destinations */
@@ -373,9 +370,9 @@
  .itinerary-items {
   margin-bottom: 30px;
  }
- 
+
  /* -------------------------------------------------------------------------------Contact Form */
- 
+
  .contact {
   display: flex;
   text-align: center;
@@ -386,46 +383,48 @@
   margin: 0px;
   padding: 10px;
  }
- 
+
  .center-form {
   displaY: flex;
   text-align: center;
   justify-content: center;
  }
- 
+
  #form {
   margin-top: 20px;
  }
- 
+
  #form>input {
   margin-top: 15px;
   margin-bottom: 15px;
   width: 75vw;
   height: 30px;
  }
- 
+
  #form>textarea {
   height: 80px;
   width: 75vw;
  }
 
  /* -------------------------------------------------------------------------------Media Queries */
-@media (min-width: 768px) {
- .menuitem {
-  width: 14%;
-  height: 40px;
+
+ @media (min-width: 768px) {
+  .menuitem {
+   width: 14%;
+   height: 40px;
+  }
+  .menuitem span {
+   font-size: 14px;
+  }
+  #form>input {
+   width: 50vw;
+  }
+
+  #form>textarea {
+   width: 50vw;
+  }
  }
- .menuitem span {
-  font-size: 14px;
- }
- #form>input {
-  width: 50vw;
- }
- 
- #form>textarea {
-  width: 50vw;
- }
-}
+
  @media (min-width: 992px) {
   .image-section-1 {
    min-height: 555px;

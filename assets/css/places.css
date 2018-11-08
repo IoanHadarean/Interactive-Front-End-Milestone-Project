@@ -25,7 +25,7 @@ label {
 
 input[name="option"] {
  height: 10px;
- margin-top: 25px;
+ margin-top: 23px;
 }
 
 /* -------------------------------------------------------------Place listing, country select and search field */
@@ -44,21 +44,17 @@ input[name="option"] {
  position: absolute;
  width: 250px;
  height: 25px;
- top: 160px;
+ top: 180px;
  z-index: 5;
  background-color: #fff;
- text-align: center;
 }
 
 #controls {
  position: absolute;
  width: 250px;
- top: 120px;
+ top: 140px;
  z-index: 5;
  background-color: #fff;
- display: flex;
- text-align: center;
- justify-content: center;
 }
 
 #autocomplete {

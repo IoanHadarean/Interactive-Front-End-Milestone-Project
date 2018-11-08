@@ -97,36 +97,37 @@
 
 
             <!-- Radio buttons for places -->
-            <div id="container">
-                <div id="placestoggle" class="row col-lg-12">
-                    <div id="places">
-                        <span class="hidden-xs">Find: </span>
-                        <input onchange="search()" type="radio" id="lodging" name="option" checked="checked" />
-                        <label for="lodging">Hotel</label>
-                        <input onchange="search()" type="radio" id="museum" name="option" />
-                        <label for="museum">Museum</label>
-                        <input onchange="search()" type="radio" id="restaurant" name="option" />
-                        <label for="restaurant">Restaurant</label>
-                        <input onchange="search()" type="radio" id="bar" name="option" />
-                        <label for="bar">Bar</label>
-                        <input onchange="search()" type="radio" id="airport" name="option" />
-                        <label for="airport">Airport</label>
-                        <input onchange="search()" type="radio" id="bank" name="option" />
-                        <label for="bank">Bank</label>
-                    </div>
+
+            <div id="placestoggle" class="row col-lg-12">
+                <div id="places">
+                    <span class="hidden-xs">Find: </span>
+                    <input onchange="search()" type="radio" id="lodging" name="option" checked="checked" />
+                    <label for="lodging">Hotel</label>
+                    <input onchange="search()" type="radio" id="museum" name="option" />
+                    <label for="museum">Museum</label>
+                    <input onchange="search()" type="radio" id="restaurant" name="option" />
+                    <label for="restaurant">Restaurant</label>
+                    <input onchange="search()" type="radio" id="bar" name="option" />
+                    <label for="bar">Bar</label>
+                    <input onchange="search()" type="radio" id="airport" name="option" />
+                    <label for="airport">Airport</label>
+                    <input onchange="search()" type="radio" id="bank" name="option" />
+                    <label for="bank">Bank</label>
                 </div>
             </div>
 
+
             <!-- Search box for entering a location -->
 
-            <div id="container">
+            <div class="container">
                 <div id="locationField">
                     <input id="autocomplete" placeholder="Enter a location" type="text" />
                 </div>
             </div>
 
             <!-- Controls for selecting a country -->
-            <div id="container">
+            
+            <div class="container">
                 <div id="controls">
                     <select id="country">
                         <option value="us">U.S.A.</option>
@@ -138,7 +139,8 @@
             </div>
 
             <!-- Google Maps -->
-            <div id="container">
+            
+            <div class="container">
                 <div id="map"></div>
             </div>
 

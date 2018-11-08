@@ -111,9 +111,11 @@ table {
 @media (min-width: 768px) {
  #locationField {
   width: 350px;
+  margin-top: 100px;
  }
  #controls {
   width: 350px;
+  margin-top: 20px;
  }
  #listing {
   height: 355px;

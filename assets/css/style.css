@@ -305,28 +305,28 @@
 
  .image-section-1 {
   height: 360px;
-  background: url("../images/UK.jpg") no-repeat;
+  background: url("../images/UK.png") no-repeat;
   background-size: cover;
   padding: 0;
  }
 
  .image-section-2 {
   height: 360px;
-  background: url("../images/USA.jpg") no-repeat;
+  background: url("../images/USA.png") no-repeat;
   background-size: cover;
   padding: 0;
  }
 
  .image-section-3 {
   height: 360px;
-  background: url("../images/RO.jpg") no-repeat;
+  background: url("../images/Sibiu.png") no-repeat;
   background-size: cover;
   padding: 0;
  }
 
  .image-section-4 {
   height: 360px;
-  background: url("../images/AUS.jpg") no-repeat;
+  background: url("../images/AUS.png") no-repeat;
   background-size: cover;
   padding: 0;
  }

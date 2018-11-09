@@ -30,16 +30,6 @@ input[name="option"] {
 
 /* -------------------------------------------------------------Place listing, country select and search field */
 
-#listing {
- position: absolute;
- width: auto;
- height: 75vh;
- overflow: auto;
- left: 0px;
- top: 152px;
- cursor: pointer;
-}
-
 #locationField {
  position: absolute;
  width: 250px;
@@ -109,23 +99,24 @@ table {
 /* Media Queries */
 
 @media (min-width: 768px) {
+ 
  #locationField {
-  width: 350px;
-  margin-top: 100px;
-  margin-left: 0px;
+  width: 25vw;
+  margin-top: 30vh;
+  margin-right: 70vw;
  }
+ 
  #controls {
-  width: 350px;
-  margin-top: 20px;
-  margin-left: 0px;
+  width: 25vw;
+  margin-top: 30vh;
+  margin-right: 70vw;
  }
- #listing {
-  height: 355px;
- }
+ 
  input[name="option"] {
   height: 14px;
   padding: 15px;
  }
+ 
  label {
   font-size: 16px;
   margin-right: 5px;
@@ -134,7 +125,9 @@ table {
  #places span {
   font-size: 16px;
  }
+ 
  #locationField {
   top: 107px;
  }
+ 
 }

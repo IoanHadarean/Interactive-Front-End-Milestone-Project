@@ -441,6 +441,10 @@
   #form>textarea {
    width: 50vw;
   }
+  
+  #places {
+   margin-top: 0px;
+  }
 
   #map {
    margin-top: -90vh;

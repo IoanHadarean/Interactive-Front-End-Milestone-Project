@@ -265,8 +265,6 @@
   padding-top: 55px;
  }
 
-
-
  /* ----------------------------------------------------Destinations */
 
  .destination {
@@ -426,13 +424,16 @@
  /* -------------------------------------------------------------------------------Media Queries */
 
  @media (min-width: 768px) {
+  
   .menuitem {
    width: 14%;
    height: 40px;
   }
+  
   .menuitem span {
    font-size: 14px;
   }
+  
   #form>input {
    width: 50vw;
   }
@@ -451,6 +452,10 @@
   .container-search {
    width: 50%;
    height: 90vh;
+  }
+  
+  .places-margins {
+   padding-top: 0px;
   }
 
  }

@@ -24,54 +24,39 @@ The website can be viewed [here](https://ioanhadarean.github.io/Interactive-Fron
 
 ### User Stories
 1. User is able to go to the main page 
-2. User is able to navigate between different pages
-3. User is able to play a spoiler video from the spoiler page
-4. User is able to listen to audioclips and view images
-5. User is able to submit a contact form
-6. User is able to send emails via the contact form
+2. User is able to navigate to different destinations on the same page
+3. User is able to send emails using the contact form
+4. User is able to search locations in different countries using the search fieldbox
+5. User is able to find touristique attractions, bars, restaurants and accomodation for a dream holiday
+6. User is able to get the rating of the searched places and to click on markers to view more details
 
 ### Existing Features
 
-**Front page that surprises the user with the unique design and centered image**
-<br>`Jumbotron feature right in the center of the page`
+**Single Page Application(SPI) that surprises with the user centric design and visual content**
 <br>`Easy-to-use navigation system`
-<br>`Login and signup buttons`
-<br>`Forms for signing up and logging in to the website`
-<br>`Functional social media links`
-<br>`Responsive web design`
-<br>**Image page with plenty of pictures**
-<br>`Grid system` 
-<br>`Login button`
-<br>`Functional social media links`
-<br>`Easy-to-use navigation system`
-<br>`Structured information with external links`
-<br>`Header for every section`
-<br>`Responsive web design`
-<br>**Songs page with the most catchy audioclips from Dragon Ball**
-<br>`Grid system`
-<br>`Login button`
-<br>`Functional social media links`
-<br>`Easy-to-use navigation system`
-<br>`Header for every section`
-<br>`Best Dragon Ball audioclips from the entire series`
-<br>`Responsive web design`
-<br>**Videoclip page with a little spoiler**
-<br>`Jumbotron feature with bordered video-box`
-<br>`Login button`
-<br>`Functional social media links`
-<br>`Easy-to-use navigation system`
-<br>`Responsive web design`
-<br>**Contact page**
+<br>`Internal links to different sections on the page`
+<br>`Radio buttons that are used to filter museums, restaurants, bars, hotels, airports and banks`
+<br>`Logo for travel agency in order to make it unique`
+<br>`Search location box for entering a location`
+<br>`Dropdown list with destination countries`
+<br>`Google Maps`
+<br>`Autocomplete function for cities (Note: The function eventually autocompletes everything)`
+<br>`Google Map markers for finding the rating of a certain place, address and more details`
+<br>`Sections for every destination`
+<br>`Tariffs for each destination(UK, USA, Romania and Australia)`
+<br>`Itinerary for every destination`
+<br>`HD images used for every destination`
+<br>`Bounce animation effect for each destination header`
 <br>`Contact form with submit button`
-<br>`Login button`
-<br>`Functional social media links`
-<br>`Easy-to-use navigation system`
-<br>`Responsive web design`
 <br>`Sending emails function`
+<br>`Reset form and alert when submitting an email`
+<br>`Responsive web design`
+<br>`Grid system` 
 
 ### Features Left To Implement
 
-SVG can be added as a feature because -webkit-text-stroke-width and -webkit-text-stroke-color don't work in Internet Explorer.
+1. SVG can be added as a feature because -webkit-text-stroke-width doesn't work in Internet Explorer.
+2. Minor fixes can be made to make the website look pixel perfect.
 
 ### Wireframe
 
@@ -95,6 +80,12 @@ SVG can be added as a feature because -webkit-text-stroke-width and -webkit-text
 7. **EmailJS**(http://www.emailjs.com/)
     <br>**EmailJS** is an application that was used to add an email template for sending emails via the contact form.
     <br>EmailJS is an aplication that allows users to send emails directly from Javascript.
+8. **Microsoft Word Office**(https://www.office.com/)
+    <br>**Microsoft Word Office** is a text editor that was used in order to create the logo.
+9. **Wow.js**(https://wowjs.uk/docs.html)
+    <br>**Wow.js** is a Javascript library that was used in order to create the bounce animations for the destination headers.
+10. **Animate.css**(https://daneden.github.io/animate.css/)
+    <br>**Animate.css** is a CSS library that that was used in order to create the bounce animations for the destination headers.
 
 ## Testing
 
@@ -124,16 +115,12 @@ The website has been published using GitHub Pages at the following address: http
 ## Credits
 
 I would like to thank all code institute students for helping me along this project. Special thanks goes to my mentor Moosa Hassan for his amazing support
-and guidance. I would also like to thank Marcin and Shane, two students from the Code Institute who helped me by providing documentation.
+and guidance and to my girlfriend for amazing design ideas. I would also like to thank Marcin and Shane, two students from the Code Institute who helped me by providing documentation.
 
 ### Media
 
-<br>The `images` used on this site were obtained from: https://images.google.com/
+<br>The HD `images` used on this site were obtained from [Google Images](https://images.google.com/).
 
 ### Information
 
-The information used to create this site was from a number of sources:
-1. Wikipedia webpage on [Dragon Ball](https://en.wikipedia.org/wiki/Dragon_Ball)
-2. Wikipedia webpage on [Dragon Ball Z](https://en.wikipedia.org/wiki/Dragon_Ball_Z)
-3. Wikipedia webpage on [Dragon Ball GT](https://en.wikipedia.org/wiki/Dragon_Ball_GT)
-4. Wikipedia webpage on [Dragon Ball Super](https://en.wikipedia.org/wiki/Dragon_Ball_Super)
+The information used to create this site was from [Google Travel Guide](https://www.google.co.uk/destination).

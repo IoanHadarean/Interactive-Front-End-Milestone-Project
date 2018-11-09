@@ -3,6 +3,6 @@
 
 $(document).ready(function() {
     $("#button").click(function() {
-        $("#placestoggle").toggleClass("placesMargins", 0.1);
+        $("#places").toggleClass("placesMargins", 0.1);
     });
 });

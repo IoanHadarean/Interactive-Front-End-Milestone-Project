@@ -30,7 +30,7 @@ input[name="option"] {
 
 /* -------------------------------------------------------------Place listing, country select and search field */
 
-#center-search {
+#centersearch {
  display: flex;
  justify-content: center;
  text-align: center;

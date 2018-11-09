@@ -262,9 +262,9 @@
  /* Added special margins for places when toggling on mobile */
 
  .placesMargins {
-  padding-top: 55px;
+  margin-top: 55px;
  }
-
+ 
  /* ----------------------------------------------------Destinations */
 
  .destination {
@@ -452,10 +452,6 @@
   .container-search {
    width: 50%;
    height: 90vh;
-  }
-  
-  .places-margins {
-   padding-top: 0px;
   }
 
  }

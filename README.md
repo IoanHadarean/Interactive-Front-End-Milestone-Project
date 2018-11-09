@@ -119,7 +119,7 @@ and guidance and to my girlfriend for amazing design ideas. I would also like to
 
 ### Media
 
-<br>The HD `images` used on this site were obtained from [Google Images](https://images.google.com/).
+The HD `images` used on this site were obtained from [Google Images](https://images.google.com/).
 
 ### Information
 

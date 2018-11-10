@@ -78,6 +78,11 @@ table {
  font-size: 12px;
 }
 
+#listing {
+ visibility: hidden;
+ height: 0px;
+}
+
 #resultsTable {
  border-collapse: collapse;
  width: 240px;

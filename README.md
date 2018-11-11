@@ -53,10 +53,24 @@ The website can be viewed [here](https://ioanhadarean.github.io/Interactive-Fron
 <br>`Responsive web design`
 <br>`Grid system` 
 
+
+
 ### Features Left To Implement
 
 1. SVG can be added as a feature because -webkit-text-stroke-width doesn't work in Internet Explorer.
 2. Minor fixes can be made to make the website look pixel perfect.
+
+## Bugs Fixed
+
+1. When a user types a location in the empty fieldbox and wants to select a different country, 
+the location does not clear out(fixed with an eventListener function that would clear out the
+location field when a new country is selected).
+2. When a user clicks on a radio button, the markers and locations are shown on the map even if 
+the location is not selected(fixed with a function that would enable the radio buttons when the
+length of the autocomplete string is more than 0).
+3. When the contact form is about to be submitted, the form does not reset. Therefore, the user does
+not know if the email was sent or not and he could spam a lot of emails(fixed by adding an alert
+mentioning if the email was sent or not and a reset for the contact form).
 
 ### Wireframe
 

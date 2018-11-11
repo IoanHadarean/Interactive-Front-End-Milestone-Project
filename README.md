@@ -53,8 +53,6 @@ The website can be viewed [here](https://ioanhadarean.github.io/Interactive-Fron
 <br>`Responsive web design`
 <br>`Grid system` 
 
-
-
 ### Features Left To Implement
 
 1. SVG can be added as a feature because -webkit-text-stroke-width doesn't work in Internet Explorer.

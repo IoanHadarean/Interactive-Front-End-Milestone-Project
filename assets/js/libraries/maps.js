@@ -87,16 +87,28 @@
  // the selected city, within the viewport of the map.
 
  function search() {
- 
+
   let poi = 'lodging'; //poi = point of interest
 
-  
-   if (document.getElementById("museum").checked) poi = 'museum';
-   if (document.getElementById("restaurant").checked) poi = 'restaurant';
-   if (document.getElementById("bar").checked) poi = 'bar';
-   if (document.getElementById("airport").checked) poi = 'airport';
-   if (document.getElementById("bank").checked) poi = 'bank';
- 
+// Choosing a point of interest by type checked and clearing markers after 
+// the filtered radio button is no longer selected
+
+  if (document.getElementById("museum").checked) poi = 'museum';
+  clearMarkers();
+  markers = [];
+  if (document.getElementById("restaurant").checked) poi = 'restaurant';
+  clearMarkers();
+  markers = [];
+  if (document.getElementById("bar").checked) poi = 'bar';
+  clearMarkers();
+  markers = [];
+  if (document.getElementById("airport").checked) poi = 'airport';
+  clearMarkers();
+  markers = [];
+  if (document.getElementById("bank").checked) poi = 'bank';
+  clearMarkers();
+  markers = [];
+
 
   let search = {
 

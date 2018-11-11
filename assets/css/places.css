@@ -39,8 +39,8 @@ input[name="option"] {
 #locationField {
  position: absolute;
  width: 250px;
- height: 25px;
- top: 290px;
+ height: 22px;
+ top: 240px;
  z-index: 5;
  background-color: #fff;
 }
@@ -48,7 +48,7 @@ input[name="option"] {
 #controls {
  position: absolute;
  width: 250px;
- top: 250px;
+ top: 200px;
  z-index: 5;
  background-color: #fff;
 }
@@ -133,16 +133,48 @@ table {
   font-size: 16px;
  }
  
+ #controls {
+  top: 420px;
+ }
+ 
+ #locationField {
+  top: 460px;
+ }
+ 
 }
 
 @media (min-width: 1200px) {
  
- #controls,
+ 
  #locationField {
+  width: 350px;
+ }
+ 
+ #controls {
   width: 350px;
  }
  
  #autocomplete, #country {
   font-size: 16px;
+ }
+}
+
+@media (min-height: 1080px) {
+ #locationField {
+  top: 530px;
+ }
+ 
+ #controls {
+  top: 490px;
+ }
+}
+
+@media (min-height: 1366px) {
+  #locationField {
+  top: 630px;
+ }
+ 
+ #controls {
+  top: 590px;
  }
 }

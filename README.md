@@ -69,6 +69,9 @@ length of the autocomplete string is more than 0).
 3. When the contact form is about to be submitted, the form does not reset. Therefore, the user does
 not know if the email was sent or not and he could spam a lot of emails(fixed by adding an alert
 mentioning if the email was sent or not and a reset for the contact form).
+4. When a user clicks on airports and there is no airports for that specific location, the results 
+and markers from the previous place don't clear out(fixed by adding clearMarkers() and markers = []
+after each time a radio button changes its value.
 
 ### Wireframe
 
@@ -98,6 +101,9 @@ mentioning if the email was sent or not and a reset for the contact form).
     <br>**Wow.js** is a Javascript library that was used in order to create the bounce animations for the destination headers.
 10. **Animate.css**(https://daneden.github.io/animate.css/)
     <br>**Animate.css** is a CSS library that that was used in order to create the bounce animations for the destination headers.
+11. **Maps Javascript API**(https://developers.google.com/maps/documentation/javascript/tutorial)
+    <br>**Maps Javascript API** is a library that was used in order to add a map on the page and customize it.
+
 
 ## Testing
 

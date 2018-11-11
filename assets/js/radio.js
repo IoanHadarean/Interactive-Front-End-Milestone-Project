@@ -13,8 +13,8 @@ $(document).ready(function() {
     });
 
     // Function for clearing out the location field when a new country is selected
-    const autoComplete = document.querySelector("#autocomplete");
-    const country = document.querySelector('#country');
+    var autoComplete = document.querySelector("#autocomplete");
+    var country = document.querySelector('#country');
     country.addEventListener('change', () => {
         autoComplete.value = '';
     });

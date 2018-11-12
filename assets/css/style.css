@@ -240,6 +240,7 @@
 
  .pink-color-itinerary {
   background-color: lightpink;
+  padding-bottom: 10px;
  }
 
  .blue-color-itinerary {
@@ -491,6 +492,6 @@
    display: flex;
    flex-direction: row-reverse;
   }
-  
+ 
  }
  

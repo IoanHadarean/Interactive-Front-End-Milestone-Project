@@ -4,6 +4,5 @@
 $(document).ready(function() {
     $("#button").click(function() {
         $("#places").toggleClass("placesMargins", 0.1);
-        $("#nav").toggleClass("placesMargins", 0.1);
     });
 });

@@ -225,6 +225,7 @@
  .map-image {
   background: url("../images/map.png") no-repeat center;
   background-size: cover;
+  background-attachment: fixed;
   width: 100%;
  }
 
@@ -270,6 +271,7 @@
   width: 100%;
   position: fixed;
   top: 0;
+  z-index: 6;
  }
  
  /* ----------------------------------------------------Destinations */

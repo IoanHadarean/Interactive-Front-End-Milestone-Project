@@ -34,6 +34,7 @@ The website can be viewed [here](https://ioanhadarean.github.io/Interactive-Fron
 
 **Single Page Application(SPI) that surprises with the user centric design and visual content**
 <br>`Easy-to-use navigation system`
+<br>`Sticky navbar when scrolling on the page`
 <br>`Internal links to different sections on the page`
 <br>`Radio buttons that are used to filter museums, restaurants, bars, hotels, airports and banks`
 <br>`Logo for travel agency in order to make it unique`

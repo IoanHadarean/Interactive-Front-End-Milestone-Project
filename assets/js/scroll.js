@@ -1,3 +1,5 @@
+// Function for making the navbar fixed when scrolling the page
+
 window.onscroll = function() { scroll() };
 var navbar = document.getElementById("navbar-default");
 var navbarFixed = navbar.offsetTop;

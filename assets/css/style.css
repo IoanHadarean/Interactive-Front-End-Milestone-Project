@@ -428,13 +428,6 @@
  }
 
  /* -------------------------------------------------------------------------------Media Queries */
-@media (min-width: 692px) {
- 
- #nav {
-  margin-left: 300px;
- }
- 
-}
  @media (min-width: 768px) {
   
   .menuitem {

@@ -16,7 +16,10 @@
  var hostnameRegexp = new RegExp('^https?://.+?/');
 
  var countries = {
-
+  'all': {
+   center: { lat: 15, lng: 0 },
+   zoom: 2,
+  },
   'us': {
    center: { lat: 39.381266, lng: -97.922211 },
    zoom: 3
@@ -37,8 +40,8 @@
 
  function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
-   zoom: countries['uk'].zoom,
-   center: countries['uk'].center,
+   zoom: countries['all'].zoom,
+   center: countries['all'].center,
    mapTypeControl: false,
    panControl: false,
    zoomControl: false,

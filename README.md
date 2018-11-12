@@ -76,7 +76,7 @@ after each time a radio button changes its value.
 
 ### Wireframe
 
-<a href="assets/images/wireframe/wireframe.png"><img src="https://ibb.co/bLQ6fA/wireframe.png" alt="wireframe" border="0"></a>
+<a href="assets/images/wireframe/wireframe.png"><img src="https://ibb.co/bLQ6fA/" alt="wireframe" border="0"></a>
 
 ## Tech Used
 

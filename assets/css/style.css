@@ -222,12 +222,11 @@
   height: 40vh;
  }
 
- .map-image {
-  background: url("../images/map.png") no-repeat center;
-  background-size: cover;
-  background-attachment: fixed;
-  width: 100%;
- }
+.map-image {
+ background: url("../images/map.png") no-repeat;
+ background-size: cover;
+}
+ 
 
  /* ------------------------------------------------Colors */
 
@@ -266,14 +265,14 @@
  .placesMargins {
   margin-top: 45px;
  }
- 
+
  .navbarFixed {
   width: 100%;
   position: fixed;
   top: 0;
   z-index: 6;
  }
- 
+
  /* ----------------------------------------------------Destinations */
 
  .destination {
@@ -432,32 +431,33 @@
  }
 
  /* -------------------------------------------------------------------------------Media Queries */
- 
+
  @media (min-width: 692px) {
-  
-  html, body {
+
+  html,
+  body {
    margin-left: 50px;
    margin-right: 50px;
    background-color: grey;
   }
-  
+
   img {
    margin-left: 80px;
   }
-  
+
  }
- 
+
  @media (min-width: 768px) {
-  
+
   .menuitem {
    width: 14%;
    height: 40px;
   }
-  
+
   .menuitem span {
    font-size: 14px;
   }
-  
+
   #form>input {
    width: 50vw;
   }
@@ -465,7 +465,7 @@
   #form>textarea {
    width: 50vw;
   }
-  
+
   #places {
    margin-top: 0px;
   }
@@ -485,31 +485,31 @@
  }
 
  @media (min-width: 992px) {
-  
+
   .image-section-1 {
    min-height: 555px;
   }
-  
+
   .image-section-2 {
    min-height: 555px;
   }
-  
+
   .image-section-3 {
    min-height: 555px;
   }
-  
+
   .image-section-4 {
    min-height: 555px;
   }
-  
+
  }
 
  @media (min-width: 1200px) {
-  
+
   .row-reverse {
    display: flex;
    flex-direction: row-reverse;
   }
- 
+
  }
  

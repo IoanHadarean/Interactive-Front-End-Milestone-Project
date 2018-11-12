@@ -1,11 +1,12 @@
 window.onscroll = function() {scroll()};
-var nav = document.getElementById("nav");
+var navbar = document.getElementById("navbar");
 var navbarFixed = navbar.offsetTop;
 
 function scroll() {
     if(window.pageYOffset >= navbarFixed) {
-       nav.classList.add("navbarFixed");
+       navbar.classList.add("navbarFixed");
+       $("#places").removeClass("placesMargins");
     } else {
-       nav.classList.remove("navbarFixed");
+       navbar.classList.remove("navbarFixed");
     }
 }

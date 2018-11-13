@@ -235,11 +235,11 @@
  }
 
  .nav-bg {
-  background-color: #f9c9d1;
+  background-color: white;
  }
 
  .pink-color-itinerary {
-  background-color: lightpink;
+  background-color: white;
   padding-bottom: 10px;
  }
 
@@ -248,7 +248,7 @@
  }
 
  .nav-color {
-  background-color: #f9c9d1;
+  background-color: white;
  }
 
  /* Buttons */
@@ -283,7 +283,7 @@
   color: black;
   font-size: 20px;
   margin: 0px;
-  padding: 10px;
+  padding: 20px;
  }
 
  /* -------------------------------------------------------------Images */
@@ -405,6 +405,7 @@
  #form>input {
   margin-top: 15px;
   margin-bottom: 15px;
+  margin-left: 15px;
   width: 75vw;
   height: 30px;
  }
@@ -412,6 +413,9 @@
  #form>textarea {
   height: 80px;
   width: 75vw;
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
  }
 
  /* -------------------------------------------------Footer */
@@ -459,11 +463,11 @@
   }
 
   #form>input {
-   width: 50vw;
+   width: 40vw;
   }
 
   #form>textarea {
-   width: 50vw;
+   width: 40vw;
   }
 
   #places {

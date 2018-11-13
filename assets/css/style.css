@@ -240,7 +240,6 @@
 
  .pink-color-itinerary {
   background-color: lightpink;
-  padding-bottom: 10px;
  }
 
  .blue-color-itinerary {
@@ -376,7 +375,7 @@
  }
  
  .itinerary-items {
-  margin-bottom: 30px;
+  padding-bottom: 30px;
  }
 
  /* -------------------------------------------------------------------------------Contact Form */

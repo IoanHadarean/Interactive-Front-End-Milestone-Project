@@ -235,11 +235,11 @@
  }
 
  .nav-bg {
-  background-color: white;
+  background-color: #f9c9d1;
  }
 
  .pink-color-itinerary {
-  background-color: white;
+  background-color: lightpink;
   padding-bottom: 10px;
  }
 
@@ -248,7 +248,7 @@
  }
 
  .nav-color {
-  background-color: white;
+  background-color: #f9c9d1;
  }
 
  /* Buttons */
@@ -346,7 +346,7 @@
  .itinerary-item {
   padding: 4em 2em 0em 2em;
   position: relative;
-  color: gray;
+  color: black;
   border-left: 1px solid;
  }
 
@@ -374,7 +374,7 @@
   content: '';
   background: black;
  }
-
+ 
  .itinerary-items {
   margin-bottom: 30px;
  }

@@ -70,9 +70,11 @@ length of the autocomplete string is more than 0).
 3. When the contact form is about to be submitted, the form does not reset. Therefore, the user does
 not know if the email was sent or not and he could spam a lot of emails(fixed by adding an alert
 mentioning if the email was sent or not and a reset for the contact form).
-4. When a user clicks on airports and there is no airports for that specific location, the results 
+4. When a user clicks on a place type and that place type does not exist for that specific location, the results 
 and markers from the previous place don't clear out(fixed by adding clearMarkers() and markers = []
-after each time a radio button changes its value.
+after each time a radio button changes its value).
+5. When a user clicks on another country, the markers from the previous country don't clear out(fixed by
+adding a function that clears markers after each time another country is clicked).
 
 ### Wireframe
 

@@ -32,4 +32,11 @@ $(document).ready(function() {
             $('input[type="radio"]').prop('disabled', true);
         }
     });
+    
+    // Function for clearing markers when another country is selected
+    
+    $('select[id="country"]').on('click', function(e) {
+        clearMarkers();
+        markers= [];
+    });
 });

@@ -91,10 +91,12 @@
 
  function search() {
 
-  let poi = 'lodging'; //poi = point of interest
-
 // Choosing a point of interest by type checked and clearing markers after 
 // the filtered radio button is no longer selected
+
+  let poi = 'lodging'; //poi = point of interest
+  clearMarkers();
+  markers = [];
 
   if (document.getElementById("museum").checked) poi = 'museum';
   clearMarkers();

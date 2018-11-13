@@ -4,14 +4,14 @@
 
 ### Overview
 
-This is a website designed for people that are looking to visit new places and to discover new touristique attractions. The website provides 
+This is a website designed for people that are looking to visit new places and to discover new tourist attractions. The website provides 
 tariffs and an itinerary for the following destinations: USA, UK, Australia and Romania.
 
 ### What is this website for?
 
 BulletTravel is an imaginary travel agency website to attract customers that want to enjoy their holiday with their family. 
 It offers a series of travel packages along with places that can be visited. Not only does it allow users to search for places to visit, but
-it also allows them to find accomodation, places to eat, touristique attractions and points of interest.
+it also allows them to find accommodation, places to eat, tourist attractions and points of interest.
 The website also allows users to send emails for project requests via the contact form.
 
 ### How does it work?
@@ -19,7 +19,7 @@ The website also allows users to send emails for project requests via the contac
 The website uses HTML and HTML5 markup language to put the structure of the website in place. It also uses CSS and Bootstrap to style 
 the website. Javascript and jQuery have helped to the functionality of the website by allowing website visitors to toggle the menu and resize it when viewed in mobile, to find different places based on a change
 function and to send emails via the contact form. Furthermore, these technologies allow those interested in the BulletTravel agency
-to find particular destinations on Google Maps and to search for accomodation, hotels, restaurants, points of interest etc.
+to find particular destinations on Google Maps and to search for accommodation, hotels, restaurants, points of interest etc.
 The website can be viewed [here](https://ioanhadarean.github.io/Interactive-Front-End-Milestone-Project/).
 
 ### User Stories

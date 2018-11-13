@@ -222,7 +222,7 @@
   height: 40vh;
  }
 
-.map-image {
+#map-image {
  background: url("../images/map.png") no-repeat;
  background-size: cover;
 }

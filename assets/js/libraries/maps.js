@@ -165,7 +165,7 @@
 
  function setAutocompleteCountry() {
   var country = document.getElementById('country').value;
-  if (country == 'all') {
+  if (country === 'all') {
    autocomplete.setComponentRestrictions({ 'country': [] });
    map.setCenter({ lat: 15, lng: 0 });
    map.setZoom(2);

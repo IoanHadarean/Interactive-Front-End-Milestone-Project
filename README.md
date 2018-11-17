@@ -30,29 +30,34 @@ The website can be viewed [here](https://ioanhadarean.github.io/Interactive-Fron
 5. User is able to find touristique attractions, bars, restaurants and accomodation for a dream holiday
 6. User is able to get the rating of the searched places and to click on markers to view more details
 
+### Wireframe
+
+<a href="https://imgbb.com/"><img src="https://image.ibb.co/h8dRfA/Bullet-Travel.png" alt="Bullet-Travel" border="0"></a>
+
+
 ### Existing Features
 
 **Single Page Application(SPI) that surprises with the user centric design and visual content**
-<br>`Easy-to-use navigation system`
-<br>`Sticky navbar when scrolling on the page`
-<br>`Internal links to different sections on the page`
-<br>`Radio buttons that are used to filter museums, restaurants, bars, hotels, airports and banks`
-<br>`Logo for travel agency in order to make it unique`
-<br>`Search location box for entering a location`
-<br>`Dropdown list with destination countries`
-<br>`Google Maps`
-<br>`Autocomplete function for cities (Note: The function eventually autocompletes everything)`
-<br>`Google Map markers for finding the rating of a certain place, address and more details`
-<br>`Sections for every destination`
-<br>`Tariffs for each destination(UK, USA, Romania and Australia)`
-<br>`Itinerary for every destination`
-<br>`HD images used for every destination`
-<br>`Bounce animation effect for each destination header`
-<br>`Contact form with submit button`
-<br>`Sending emails function`
-<br>`Reset form and alert when submitting an email`
-<br>`Responsive web design`
-<br>`Grid system` 
+* Easy-to-use navigation system
+* Sticky navbar when scrolling on the page
+* Internal links to different sections on the page
+* Radio buttons that are used to filter museums, restaurants, bars, hotels, airports and banks
+* Logo for travel agency in order to make it unique
+* Search location box for entering a location
+* Dropdown list with destination countries
+* Google Maps
+* Autocomplete function for cities (Note: The function eventually autocompletes everything)
+* Google Map markers for finding the rating of a certain place, address and more details
+* Sections for every destination
+* Tariffs for each destination(UK, USA, Romania and Australia)
+* Itinerary for every destination
+* HD images used for every destination
+* Bounce animation effect for each destination header
+* Contact form with submit button
+* Sending emails function
+* Reset form and alert when submitting an email
+* Responsive web design
+* Grid system 
 
 ### Features Left To Implement
 
@@ -75,10 +80,6 @@ and markers from the previous place don't clear out(fixed by adding clearMarkers
 after each time a radio button changes its value).
 5. When a user clicks on another country, the markers from the previous country don't clear out(fixed by
 adding a function that clears markers after each time another country is clicked).
-
-### Wireframe
-
-<a href="https://imgbb.com/"><img src="https://image.ibb.co/h8dRfA/Bullet-Travel.png" alt="Bullet-Travel" border="0"></a>
 
 ## Tech Used
 

@@ -120,6 +120,7 @@ adding a function that clears markers after each time another country is clicked
 <br>    iii Opera
 <br>    iv Internet Explorer
 5. Sending emails functionality was tested using Gmail and EmailJS.
+6. SendMail function was tested using Jasmine Framework.
 
 ## Deployment
 

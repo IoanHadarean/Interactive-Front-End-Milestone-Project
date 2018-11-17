@@ -1,7 +1,6 @@
 // Function created in order to send emails via the contact form on submit
 // Note: The template for sending emails was created using EmailJS
 
-
 function sendMail(form) {
     emailjs.send("gmail", "rosie", {
             "from_name": form.name.value,
@@ -18,6 +17,6 @@ function sendMail(form) {
                 console.log("FAILED", error);
                 alert("Message was not sent");
                 document.getElementById('form').reset();
-            })
+            });
     return false;
 }

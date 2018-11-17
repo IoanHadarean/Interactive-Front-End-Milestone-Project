@@ -99,8 +99,8 @@ adding a function that clears markers after each time another country is clicked
 7. **EmailJS**(http://www.emailjs.com/)
     <br>**EmailJS** is an application that was used to add an email template for sending emails via the contact form.
     <br>EmailJS is an aplication that allows users to send emails directly from Javascript.
-8. **Microsoft Word Office**(https://www.office.com/)
-    <br>**Microsoft Word Office** is a text editor that was used in order to create the logo.
+8. **Logojoy**(https://logojoy.com/editor/23038937?fbclid=IwAR0lnrbXBtKVztrozEHmeoIQ7kDqWUECBVn5nZfC_WZlGwG7dxbNbRfbF24)
+    <br>**Logojoy** is a logo maker that was used in order to create the logo of the company.
 9. **Wow.js**(https://wowjs.uk/docs.html)
     <br>**Wow.js** is a Javascript library that was used in order to create the bounce animations for the destination headers.
 10. **Animate.css**(https://daneden.github.io/animate.css/)

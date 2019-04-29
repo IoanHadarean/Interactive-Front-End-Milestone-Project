@@ -257,14 +257,8 @@
   margin-bottom: 20px;
  }
 
- /* -----------------------------------------------jQuery */
+ /* -----------------------------------------------JavaScript classes */
 
- /* Added special margins for places when toggling on mobile */
-
- .placesDown {
-  margin-top: 120px;
- }
- 
 
  .navbarFixed {
   width: 100%;

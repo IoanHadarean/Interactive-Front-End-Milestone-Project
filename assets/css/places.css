@@ -136,15 +136,6 @@ table {
  #places span {
   font-size: 16px;
  }
- 
- #controls {
-  top: 420px;
- }
- 
- #locationField {
-  top: 460px;
- }
- 
 }
 
 @media (min-width: 1200px) {

@@ -1,3 +1,6 @@
+/* global emailjs */
+
+
 // Function created in order to send emails via the contact form on submit
 // Note: The template for sending emails was created using EmailJS
 

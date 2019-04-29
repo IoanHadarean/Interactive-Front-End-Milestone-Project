@@ -1,30 +1,34 @@
-$(document).ready(function() {
-    
+/* global clearMarkers */
+
+window.onload = function() {
+    // Declare HTML elements
+    let autoComplete = document.querySelector("#autocomplete");
+    let country = document.querySelector('#country');
+    let radioButtons = document.querySelectorAll('input[type="radio"]');
+
     // Function for clearing out the location field when a new country is selected
-    var autoComplete = document.querySelector("#autocomplete");
-    var country = document.querySelector('#country');
     country.addEventListener('change', () => {
         autoComplete.value = '';
     });
 
     // Function for disabling radio buttons when the location field is empty
-    
-    $('input[type="text"]').on('input propertychange paste', function(e) {
-
-        if ($('#autocomplete').val().length > 0) {
-
-            $('input[type="radio"]').prop('disabled', false);
-
+    autoComplete.addEventListener('input', function(e) {
+        let radioButtonsArray = Array.from(radioButtons);
+        if (autoComplete.value.length > 0) {
+            for (var i = 0; i < radioButtonsArray.length; i++) {
+                radioButtonsArray[i].disabled = false;
+            }
         }
         else {
-            $('input[type="radio"]').prop('disabled', true);
+            for (var i = 0; i < radioButtonsArray.length; i++) {
+                radioButtonsArray[i].disabled = true;
+            }
         }
     });
-    
+
     // Function for clearing markers when another country is selected
-    
-    $('select[id="country"]').on('click', function(e) {
+
+    country.addEventListener('click', function() {
         clearMarkers();
-        markers= [];
     });
-});
+};

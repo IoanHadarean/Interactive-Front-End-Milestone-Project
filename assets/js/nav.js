@@ -4,7 +4,13 @@
 window.onload = function() {
     let button = document.getElementById('button');
     let places = document.getElementById('places');
+    let navbar = document.getElementById('navbar');
     button.addEventListener('click', function() {
-        places.classList.toggle("placesMargins", 0.1);
+        if (!navbar.classList.contains('in')) {
+            places.style.marginTop = '45px';
+        }
+        else {
+            places.style.marginTop = '0px';
+        }
     });
 };

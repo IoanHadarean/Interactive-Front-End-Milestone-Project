@@ -261,9 +261,10 @@
 
  /* Added special margins for places when toggling on mobile */
 
- .placesMargins {
-  margin-top: 45px;
+ .placesDown {
+  margin-top: 120px;
  }
+ 
 
  .navbarFixed {
   width: 100%;

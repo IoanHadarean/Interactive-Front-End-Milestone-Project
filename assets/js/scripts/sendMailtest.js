@@ -1,4 +1,4 @@
-let sendMail = function(message) {
+sendMail = function(message) {
     if(message == "SUCCESS") {
         return "Your message has been sent successfully";
     }
